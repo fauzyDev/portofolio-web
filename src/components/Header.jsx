@@ -18,7 +18,7 @@ const Header = () => {
                     </a>
                 </h1>
                 <div className="relative md:justify-self-center">
-                  <button className="w-10 h-10 grid place-items-center bg-zinc-50/10 rounded-xl ring-inset ring-1 ring-zinc-50/[0.02] backdrop-blur-2xl hover:bg-zinc-50/15 transition-[transform,background-color] active:scale-95 md:hidden" onClick={() => setNavOpen((prev) => !prev)}>
+                  <button className="menu-btn md:hidden" onClick={() => setNavOpen((prev) => !prev)}>
                     {navOpen ? <CloseRoundedIcon/> : <MenuRoundedIcon/> }
                   </button>
                     <Navbar navOpen={navOpen}/>
