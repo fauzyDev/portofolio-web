@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+import tailwindScrollbar from "tailwind-scrollbar"
+
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -11,7 +14,10 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+     fontFamily: {
+        sans: ["Inter", "sans-serif"]
+     }
     },
   },
-  plugins: [],
+  plugins: [tailwindScrollbar],
 };
