@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import DownloadSharpIcon from '@mui/icons-material/DownloadSharp';
+import LaunchSharpIcon from '@mui/icons-material/LaunchSharp';
 import { Button, ButtonExtend } from './Button';
 
 const Hero = () => {
@@ -24,7 +25,7 @@ const Hero = () => {
                     </h2>
                     <div className="flex items-center gap-3 ">
                         <Button label="Download CV" icon={<DownloadSharpIcon/>}/>
-                        <ButtonExtend href="#about" label="Scroll down"/>
+                        <ButtonExtend href="#about" label="Scroll down" icon={<LaunchSharpIcon/>}/>
                     </div>
                 </div>
                 <div className="hidden lg:block">
