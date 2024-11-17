@@ -2,8 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
-import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
+import { Divide as Hamburger } from 'hamburger-react'
 import Navbar from "./Navbar";
 
 const Header = () => {
@@ -18,8 +17,17 @@ const Header = () => {
                     </a>
                 </h1>
                 <div className="relative md:justify-self-center">
-                  <button className="menu-btn md:hidden" onClick={() => setNavOpen((prev) => !prev)}>
-                    {navOpen ? <CloseRoundedIcon className="material-symbols"/> : <MenuRoundedIcon className="material-symbols"/> }
+                  <button className="menu-btn material-symbols md:hidden" onClick={() => setNavOpen(!navOpen)}>
+                    <Hamburger
+                        toggled={navOpen}
+                        toggle={() => setNavOpen(!navOpen)}
+                        size={32}
+                        strokeWidth={2}
+                        rotate={0}
+                        color="#fff"
+                        borderRadius={0}
+                        animationDuration={0.5}
+                    />
                   </button>
                     <Navbar navOpen={navOpen}/>
                 </div>
