@@ -1,4 +1,5 @@
 import React from 'react';
+import Project from './Project';
 
 const works = [
     {
@@ -41,9 +42,20 @@ const works = [
 
 const Work = () => {
     return (
-        <div>
-            
-        </div>
+        <section id="work" className="section">
+            <div className="container">
+              <h2 className="headline-2 mb-8">
+                My portfolio highlights
+              </h2>
+              <div className="">
+                {works.map(({
+                  imgSrc, title, tags, projectLink
+                }, key) => {
+                    <Project key={key} imgSrc={imgSrc} title={title} tags={tags} projectLink={projectLink} />
+                })}
+              </div>
+            </div>
+        </section>
     );
 }
 
