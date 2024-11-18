@@ -8,6 +8,16 @@ html {
 
 /* utilities */
 
+@media (max-width: 640px) {
+  .nav-link {
+    @apply text-zinc-50/50; /* Kembali transparan pada layar kecil */
+  }
+
+  .nav-link:active {
+    @apply text-zinc-50; /* Putih penuh saat disentuh */
+  }
+}
+
 .material-symbols {
   @apply w-[1em] h-[1em] overflow-hidden;
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;

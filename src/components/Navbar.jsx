@@ -60,7 +60,7 @@ const Navbar = ({ navOpen }) => {
       ];
 
     return (
-        <nav className={`navbar ${navOpen ? 'active' : 'text-zinc-50/50'}`}>
+        <nav className={`navbar ${navOpen ? 'active' : ''}`}>
             {navItems.map(({
                 label, link, className, ref
             }, key) => (
