@@ -80,9 +80,11 @@ html {
   @apply text-zinc-50
 }
 
-.nav-link:focus,
-.nav-link:active {
-  @apply text-zinc-800
+@media (max-width: 480px) {
+  .nav-link:focus,
+  .nav-link:active {
+    @apply text-zinc-800
+  }
 }
 
 .navbar .active-box {
