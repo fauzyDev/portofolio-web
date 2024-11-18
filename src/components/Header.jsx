@@ -17,11 +17,10 @@ const Header = () => {
                     </a>
                 </h1>
                 <div className="relative md:justify-self-center">
-                  <button className="menu-btn material-symbols md:hidden" onClick={() => setNavOpen(!navOpen)}>
+                  <button className="menu-btn material-symbols md:hidden" onClick={() => setNavOpen((prev) => !prev)}>
                     <Hamburger
                         toggled={navOpen}
-                        toggle={() => setNavOpen(!navOpen)}
-                        size={32}
+                        size={25}
                         strokeWidth={2}
                         rotate={0}
                         color="#fff"
