@@ -8,12 +8,8 @@ html {
 
 /* utilities */
 
-@media (max-width: 414px) {
-  .nav-link {
-    @apply text-zinc-50/50; /* Kembali transparan pada layar kecil */
-  }
-
-  .nav-link:active {
+@media (max-width: 640px) {
+  .nav-link.active {
     @apply text-zinc-800; /* Putih penuh saat disentuh */
   }
 }
