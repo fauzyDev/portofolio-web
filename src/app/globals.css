@@ -9,7 +9,7 @@ html {
 /* media */
 
 @media (min-width: 480px) {
-  .xs.nav-link {
+  .nav-link {
     @apply hover:text-zinc-800
   }
 }
