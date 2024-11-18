@@ -14,7 +14,7 @@ html {
   }
 
   .nav-link:active {
-    @apply text-zinc-50; /* Putih penuh saat disentuh */
+    @apply text-zinc-800; /* Putih penuh saat disentuh */
   }
 }
 
