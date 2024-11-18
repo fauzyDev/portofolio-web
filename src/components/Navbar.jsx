@@ -40,17 +40,17 @@ const Navbar = ({ navOpen }) => {
         {
           label: 'About',
           link: '#about',
-          className: 'nav-link'
+          className: 'nav-link active'
         },
         {
           label: 'Project',
           link: '#work',
-          className: 'nav-link'
+          className: 'nav-link active'
         },
         {
           label: 'Certificate',
           link: '#reviews',
-          className: 'nav-link'
+          className: 'nav-link active'
         },
         {
           label: 'Contact',
