@@ -8,7 +8,7 @@ html {
 
 /* utilities */
 
-@media (max-width: 640px) {
+@media (max-width: 414px) {
   .nav-link {
     @apply text-zinc-50/50; /* Kembali transparan pada layar kecil */
   }
