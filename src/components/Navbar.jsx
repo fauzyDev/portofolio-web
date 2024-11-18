@@ -64,7 +64,7 @@ const Navbar = ({ navOpen }) => {
             {navItems.map(({
                 label, link, className, ref
             }, key) => (
-                <a href={link} key={key} ref={ref} className={className} onClick={activeLink}>
+                <a href={link} key={key} ref={ref} className={className} onClick={activeLink ? 'active' : ''}>
                     {label}
                 </a> 
             ))}
