@@ -14,6 +14,9 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screen: {
+        "xs": "480px",
+      },
      fontFamily: {
         sans: ["Inter", "sans-serif"]
      }
