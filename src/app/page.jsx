@@ -3,6 +3,8 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Skill from "@/components/Skill";
 import Work from "@/components/Work";
+import Certificate from "@/components/Certificate";
+import Contact from "@/components/Contact";
 
 export default function Home() {
 
@@ -14,6 +16,8 @@ export default function Home() {
           <About/>
           <Skill/>
           <Work/>
+          <Certificate/>
+          <Contact/>
         </main>
       </>
     );
