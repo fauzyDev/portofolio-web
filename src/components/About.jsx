@@ -35,7 +35,7 @@ const About = () => {
                             <p className="text-sm text-zinc-400">{label}</p>
                         </div>
                         ))}
-                        <Image src="/images/logo.svg" width={30} height={30} className="ml-auto md:w-[40px] md:h-[40px]" alt=""/>
+                        <Image src="/images/logo.svg" width={30} height={30} className="ml-auto md:w-[40px] md:h-[40px]" alt="logo"/>
                     </div>
                 </div>
             </div>

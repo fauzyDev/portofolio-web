@@ -1,6 +1,7 @@
 import { Inter } from 'next/font/google';
 import { GoogleTagManager } from '@next/third-parties/google'
 import "./globals.css";
+import 'lenis/dist/lenis.css'
 
 export const inter = Inter({
   subsets: ['latin'],
