@@ -50,6 +50,26 @@ const Contact = () => {
                         ))}
                     </div>
                 </div>
+                <form action="" method="POST" className="">
+                    <div className="">
+                        <div className="">
+                            <label htmlFor="name" className="label">
+                                Name
+                            </label>
+                            <input type="text" name="name" id="name" autoComplete="name" required placeholder="Name" className="text-field" />
+                        </div>
+
+                        <div className="">
+                            <label htmlFor="email" className="label">
+                                Email
+                            </label>
+                            <input type="email" name="email" id="email" autoComplete="example@gmail.com" required placeholder="Name" className="text-field" />
+                        </div>
+                    </div>
+                    <div className="">
+                      <label htmlFor="message" className=""></label>
+                    </div>
+                </form>
             </div>
         </section>
     );
