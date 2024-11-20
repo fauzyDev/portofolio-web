@@ -42,7 +42,7 @@ const reviews = [
 
 const Certificate = () => {
     return (
-        <section id="reviews" className="section overflow-hidden">
+        <section id="certificate" className="section overflow-hidden">
             <div className="container">
                 <h2 className="headliine-2 mb-8">
                     What our customers say

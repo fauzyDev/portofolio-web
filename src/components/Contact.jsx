@@ -33,7 +33,7 @@ const socialLinks = [
 
 const Contact = () => {
     return (
-        <section id="" className="section">
+        <section id="contact" className="section">
             <div className="container lg:grid lg:grid-cols-2 lg:items-stretch">
                 <div className="mb-12 lg:mb-0 lg:flex lg:flex-col">
                     <h2 className="headline-2 lg:max-w-[12ch]">
@@ -50,25 +50,25 @@ const Contact = () => {
                         ))}
                     </div>
                 </div>
-                <form action="" method="POST" className="">
-                    <div className="">
-                        <div className="">
+                <form action="" method="POST" className="xl:pl-10 2xl:pl-20">
+                    <div className="md:grid md:items-center md:grid-cols-2 md:gap-2">
+                        <div className="mb-4">
                             <label htmlFor="name" className="label">
                                 Name
                             </label>
                             <input type="text" name="name" id="name" autoComplete="name" required placeholder="Name" className="text-field" />
                         </div>
 
-                        <div className="">
+                        <div className="mb-4">
                             <label htmlFor="email" className="label">Email</label>
-                            <input type="email" name="email" id="email" autoComplete="example@gmail.com" required placeholder="Name" className="text-field" />
+                            <input type="email" name="email" id="email" autoComplete="example@gmail.com" required placeholder="Email" className="text-field" />
                         </div>
                     </div>
-                    <div className="">
+                    <div className="mb-4">
                       <label htmlFor="message" className="label">Message</label>
-                      <textarea id="" name="" className="text-field" required placeholder="Hi!"></textarea>
+                      <textarea id="" name="" className="text-field resize-y min-h-32 max-h-80" required placeholder="Hi!"></textarea>
                     </div>
-                    <button type="submit" className="btn btn-primary">Submit</button>
+                    <button type="submit" className="btn btn-primary [&]:max-w-full w-full justify-center">Submit</button>
                 </form>
             </div>
         </section>
