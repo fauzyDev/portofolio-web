@@ -5,6 +5,7 @@ import Skill from "@/components/Skill";
 import Work from "@/components/Work";
 import Certificate from "@/components/Certificate";
 import Contact from "@/components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
 
@@ -19,6 +20,7 @@ export default function Home() {
           <Certificate/>
           <Contact/>
         </main>
+        <Footer/>
       </>
     );
   }
