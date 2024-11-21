@@ -41,13 +41,14 @@ const reviews = [
   ];
 
 const Certificate = () => {
+
     return (
         <section id="certificate" className="section overflow-hidden">
             <div className="container">
-                <h2 className="headliine-2 mb-8">
+                <h2 className="headliine-2 mb-8 reveal-up">
                     What our customers say
                 </h2>
-                <div className="flex items-stretch gap-3 w-fit">
+                <div className="scrub-slide flex items-stretch gap-3 w-fit">
                     {reviews.map(({
                         content, name, imgSrc, company
                     }, key) => (

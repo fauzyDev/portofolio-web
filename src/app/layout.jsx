@@ -3,6 +3,8 @@ import { GoogleTagManager } from '@next/third-parties/google'
 import "./globals.css";
 import 'lenis/dist/lenis.css'
 
+import Header from "@/components/Header";
+
 export const inter = Inter({
   subsets: ['latin'],
   style: ['normal'],
@@ -17,11 +19,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="bg-zinc-900 text-zinc-50 scrollbar-thin scrollbar-track-zinc-800 scrollbar-thumb-zinc-500">
-      <body
-        className={`${inter.variable} antialiased`}
-      >
+      <body className={`${inter.variable} antialiased`} suppressContentEditableWarning={true}>
+        <GoogleTagManager gtmId="GTM-WRTCTKBL"/>
+        <Header/>
         {children}
-        <GoogleTagManager gtmId="GTM-WRTCTKBL" />
       </body>
     </html>
   );

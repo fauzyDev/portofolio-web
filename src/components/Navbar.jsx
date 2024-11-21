@@ -74,7 +74,6 @@ const Navbar = ({ navOpen }) => {
                 </a> 
             ))}
             <div className="active-box" ref={activeBox}>
-
             </div>
         </nav>
     );
