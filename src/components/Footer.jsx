@@ -12,12 +12,12 @@ const sitemap = [
       href: '#about'
     },
     {
-      label: 'Work',
-      href: '#work'
+      label: 'Tech Stack',
+      href: '#tools'
     },
     {
-      label: 'Reviews',
-      href: '#reviews'
+      label: 'Certificate',
+      href: '#certificate'
     },
     {
       label: 'Contact me',
@@ -35,17 +35,9 @@ const sitemap = [
       href: 'https://www.linkedin.com/in/codewithsadee'
     },
     {
-      label: 'Twitter X',
-      href: 'https://x.com/codewithsadee_'
-    },
-    {
       label: 'Instagram',
       href: 'https://www.instagram.com/codewithsadee'
     },
-    {
-      label: 'CodePen',
-      href: 'https://codepen.io/codewithsadee'
-    }
   ];
 
 const Footer = () => {

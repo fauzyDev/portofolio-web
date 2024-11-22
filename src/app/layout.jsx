@@ -19,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="bg-zinc-900 text-zinc-50 scrollbar-thin scrollbar-track-zinc-800 scrollbar-thumb-zinc-500">
-      <body className={`${inter.variable} antialiased`} suppressContentEditableWarning={true}>
+      <body className={`${inter.variable} antialiased`} suppressHydrationWarning={true}>
         <GoogleTagManager gtmId="GTM-WRTCTKBL"/>
         <Header/>
         {children}
