@@ -30,7 +30,11 @@ html {
 }
 
 .reveal-up {
-  @apply translate-y-20 opacity-0
+  @apply translate-y-20 opacity-0 will-change-transform
+}
+
+.scrub-slide {
+  @apply will-change-transform
 }
 
 /* typography */
