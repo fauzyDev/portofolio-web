@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { Button } from './Button';
 
 const sitemap = [
@@ -49,7 +49,7 @@ const Footer = () => {
                         <h2 className="headline-2 mb-8 lg:max-w-[12ch] reveal-up">
                             Let&apos;s work together today!
                         </h2>
-                        <Button href="mailto:haliffauzy45@gmail.com" label="Start project" icon="chevron" classes="reveal-up"/>
+                        <Button href="mailto:haliffauzy45@gmail.com" label="Start project" icon={<ArrowForwardIcon/>} classes="reveal-up"/>
                     </div>
                     <div className="grid grid-cols-2 gap-4 lg:pl-20">
                         <div>
@@ -80,11 +80,9 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="flex items-center justify-between pt-10 mb-8">
-                    <a href="" className="logo reveal-up">
-                        <Image src="/images/logo.svg" width={40} height={40} alt="logo"/>
-                    </a>
-                    <p className="text-zinc-400 text-sm reveal-up">
-                        &copy; 2024 <span className="text-zinc-200">Fauzy</span>
+                    <div className="w-14 h-14"></div>
+                    <p className="text-zinc-300 text-sm reveal-up">
+                        &copy; 2024 <span className="text-zinc-50">Fauzy</span>
                     </p>
                 </div>
             </div>

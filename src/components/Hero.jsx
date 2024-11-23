@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import DownloadSharpIcon from '@mui/icons-material/DownloadSharp';
-import LaunchSharpIcon from '@mui/icons-material/LaunchSharp';
+import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import { Button, ButtonExtend } from './Button';
 
 const Hero = () => {
@@ -18,11 +18,11 @@ const Hero = () => {
                         </div>
                     </div>
                     <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10 ">
-                    Hello, My Name is Fauzy, I am a Web Developer
+                    Hello, My Name is Fauzy, I am a Web Development
                     </h2>
                     <div className="flex items-center gap-3 ">
                         <Button label="Download CV" icon={<DownloadSharpIcon/>}/>
-                        <ButtonExtend href="#about" label="Scroll down" icon={<LaunchSharpIcon/>}/>
+                        <ButtonExtend href="#about" label="Connect Me" icon={<ArrowOutwardIcon/>}/>
                     </div>
                 </div>
                 <div className="hidden lg:block">
