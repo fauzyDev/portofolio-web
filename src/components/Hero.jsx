@@ -2,7 +2,13 @@ import React from 'react';
 import Image from 'next/image';
 import DownloadSharpIcon from '@mui/icons-material/DownloadSharp';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
-import { Button, ButtonExtend } from './Button';
+import { Buttons, ButtonExtend } from './Button';
+
+const link = [
+    {
+        link: "https://www.linkedin.com/in/halif-fauzy"
+    }
+]
 
 const Hero = () => {
     return (
@@ -21,8 +27,10 @@ const Hero = () => {
                     Hello, My Name is Fauzy, I am a Web Development
                     </h2>
                     <div className="flex items-center gap-3 ">
-                        <Button label="Download CV" icon={<DownloadSharpIcon/>}/>
-                        <ButtonExtend href="#about" label="Connect Me" icon={<ArrowOutwardIcon/>}/>
+                        <Buttons label="Download CV" icon={<DownloadSharpIcon/>}/>
+                        {link.map(({ link }, key) => (
+                        <ButtonExtend key={key} href={link} label="Connect Me" icon={<ArrowOutwardIcon/>}/>
+                        ))}
                     </div>
                 </div>
                 <div className="hidden lg:block">

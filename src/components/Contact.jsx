@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from "@nextui-org/button";
 
 const socialLinks = [
     {
@@ -33,7 +34,7 @@ const Contact = () => {
                         Contact me for collaboration
                     </h2>
                     <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w[30ch] reveal-up">
-                        Reach out today to discuss your project needs and start collaborating on something amazing!
+                      I am always open to learning and collaborating on challenging projects!
                     </p>
                     <div className="flex items-center gap-2 mt-auto">
                         {socialLinks.map(({ href, icon, label }, key) => (
@@ -61,7 +62,7 @@ const Contact = () => {
                       <label htmlFor="message" className="label reveal-up">Message</label>
                       <textarea id="" name="" className="text-field resize-y min-h-32 max-h-80 reveal-up" required placeholder="Hi!"></textarea>
                     </div>
-                    <button type="submit" className="btn btn-primary [&]:max-w-full w-full justify-center reveal-up">Submit</button>
+                    <Button type="submit" color="primary" className="btn [&]:max-w-full w-full justify-center reveal-up">Submit</Button>
                 </form>
             </div>
         </section>

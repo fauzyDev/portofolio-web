@@ -1,6 +1,6 @@
 import React from 'react';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import { Button } from './Button';
+import { Buttons } from './Button';
 
 const sitemap = [
     {
@@ -49,7 +49,7 @@ const Footer = () => {
                         <h2 className="headline-2 mb-8 lg:max-w-[12ch] reveal-up">
                             Let&apos;s work together today!
                         </h2>
-                        <Button href="mailto:haliffauzy45@gmail.com" label="Start project" icon={<ArrowForwardIcon/>} classes="reveal-up"/>
+                        <Buttons href="mailto:haliffauzy45@gmail.com" label="Start project" icon={<ArrowForwardIcon/>} classes="reveal-up"/>
                     </div>
                     <div className="grid grid-cols-2 gap-4 lg:pl-20">
                         <div>

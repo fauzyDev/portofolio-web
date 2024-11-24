@@ -1,6 +1,7 @@
 import React from 'react';
+import { Button } from "@nextui-org/button";
 
-const Button = ({ href, target = '_self', label, icon, classes }) => {
+const Buttons = ({ href, target = '_self', label, icon, classes }) => {
     if (href) {
         return (
             <a 
@@ -25,23 +26,24 @@ const Button = ({ href, target = '_self', label, icon, classes }) => {
 const ButtonExtend = ({ href, target = '_self', label, icon, classes }) => {
     if (href) {
         return (
+            <Button color="default" className={`btn btn-outline ${classes}`}>
             <a 
             href={href} 
-            target={target} 
-            className={`btn btn-outline ${classes}`}>
+            target={target}>
             {label} 
             {icon ? <span aria-hidden="true">{icon}</span> : undefined}
             </a>
+            </Button>
         )
     } else {
         return (
-            <button className={`btn btn-outline ${classes}`}>
+            <Button color="default" className={`btn btn-outline ${classes}`}>
                 {label}
                 {icon ? <span aria-hidden="true">{icon}</span> : undefined}
-            </button>
+            </Button>
         )
     }
 }
 
-export { Button, ButtonExtend }
+export { Buttons, ButtonExtend }
 

@@ -6,7 +6,10 @@ const About = () => {
             <div className="container">
                 <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
                     <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-                    👋 Halo! Saya seorang Web Developer dengan fokus pada pengembangan backend dan integrasi teknologi modern.
+                    👋 Hello!, I am Fauzy, a web developer with expertise in 
+                    JavaScript, Express js, React js, Next js, Prisma ORM, and Vercel. I am committed to creating innovative and efficient web applications.
+
+                    My interest in networking also supports my understanding of application infrastructure.
                     </p>
                 </div>
             </div>
