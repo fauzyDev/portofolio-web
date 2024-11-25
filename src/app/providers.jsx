@@ -1,5 +1,4 @@
 // app/providers.jsx
-
 import React from 'react'
 import { NextUIProvider } from '@nextui-org/react'
 import NextTheme from '@/components/NextTheme'

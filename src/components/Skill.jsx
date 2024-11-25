@@ -3,52 +3,40 @@ import SkillCard from './SkillCard';
 
 const skillItem = [
     {
-      imgSrc: '/images/figma.svg',
-      label: 'Figma',
-      desc: 'Design tool',
-      className: 'fade-right'
-    },
-    {
-      imgSrc: '/images/css3.svg',
-      label: 'CSS',
-      desc: 'User Interface',
-      className: 'fade-left'
-    },
-    {
       imgSrc: '/images/javascript.svg',
       label: 'JavaScript',
-      desc: 'Interaction',
-      className: 'fade-right'
+      desc: 'Language Programming',
+      progress: '52'
     },
     {
       imgSrc: '/images/nodejs.svg',
       label: 'NodeJS',
       desc: 'Web Server',
-      className: 'fade-left'
+      progress: '15'
     },
     {
       imgSrc: '/images/expressjs.svg',
       label: 'ExpressJS',
       desc: 'Node Framework',
-      className: 'fade-right'
+      progress: '20'
     },
     {
-      imgSrc: '/images/mongodb.svg',
-      label: 'MongoDB',
-      desc: 'Database',
-      className: 'fade-left'
+      imgSrc: '/images/nextjs.svg',
+      label: 'Next JS',
+      desc: 'Framework',
+      progress: '40'
     },
     {
       imgSrc: '/images/react.svg',
       label: 'React',
       desc: 'Framework',
-      className: 'fade-right'
+      progress: '40'
     },
     {
       imgSrc: '/images/tailwindcss.svg',
       label: 'TailwindCSS',
       desc: 'User Interface',
-      className: 'fade-left'
+      progress: '27'
     },
   ];
 
@@ -65,9 +53,9 @@ const Skill = () => {
                 <div className="grid gap-3 grid-cols-[repeat(auto+fill,_minmax(250px,_1fr))]">
                     {
                         skillItem.map(({
-                            imgSrc, label, desc, className
+                            imgSrc, label, desc, progress
                         }, key)=> (
-                            <SkillCard key={key} imgSrc={imgSrc} label={label} desc={desc} classes={`reveal-up ${className}`}/>
+                            <SkillCard key={key} imgSrc={imgSrc} label={label} desc={desc} progress={progress} classes="reveal-up"/>
                         ))
                     }
                 </div>

@@ -62,7 +62,7 @@ const Contact = () => {
                       <label htmlFor="message" className="label reveal-up">Message</label>
                       <textarea id="" name="" className="text-field resize-y min-h-32 max-h-80 reveal-up" required placeholder="Hi!"></textarea>
                     </div>
-                    <Button type="submit" color="primary" className="btn [&]:max-w-full w-full justify-center reveal-up">Submit</Button>
+                    <Button type="submit" className="btn btn-primary bg-blue-600 [&]:max-w-full w-full justify-center reveal-up">Submit</Button>
                 </form>
             </div>
         </section>

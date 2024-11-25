@@ -1,18 +1,31 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
+import { Progress } from "@nextui-org/progress";
 
-const SkillCard = ({ imgSrc, label, desc, classes }) => {
-    return (
-        <div className={`flex items-center gap-3 ring-2 ring-inset ring-zinc-50/10 rounded-2xl p-3 hover:bg-zinc-800 transition-colors group ${classes}`}>
-            <figure className="bg-zinc-700/50 rounded-lg overflow-hidden w-12 h-12 p-2 group-hover:bg-zinc-900 transition-colors">
-                <Image src={imgSrc} width={32} height={32} alt={label}/>
-            </figure>
-            <div>
-                <h3>{label}</h3>
-                <p className="text-zinc-400 text-sm">{desc}</p>
-            </div>
+const SkillCard = ({ imgSrc, label, desc, progress, classes }) => {
+  return (
+    <div className={`flex items-center gap-3 ring-1 ring-inset ring-sky-500 rounded-2xl p-3 hover:bg-zinc-800 transition-colors group ${classes}`}>
+      <figure className="bg-zinc-700/50 rounded-lg overflow-hidden w-12 h-12 p-2 group-hover:bg-zinc-900 transition-colors">
+        <Image src={imgSrc} width={32} height={32} alt={label} />
+      </figure>
+      <div className="max-w-md w-full">
+        <h3>{label}</h3>
+        <p className="text-zinc-400 text-sm">{desc}</p>
+        <div className="relative">
+          <Progress
+            size="sm"
+            classNames={{ track: "bg-gray-400 rounded-full" }}
+            value={progress}
+            showValueLabel={false}
+            label="Progress"  
+            />
+            <span className="absolute top-[-20px] right-0 text-sm text-white pr-2">
+            {progress}%
+          </span>
         </div>
-    );
-}
+      </div>
+    </div>
+  );
+};
 
 export default SkillCard;

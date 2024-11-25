@@ -4,20 +4,21 @@ import { Button } from "@nextui-org/button";
 const Buttons = ({ href, target = '_self', label, icon, classes }) => {
     if (href) {
         return (
+            <Button className={`btn bg-blue-600 btn-primary ${classes}`}>
             <a 
             href={href} 
-            target={target} 
-            className={`btn btn-primary ${classes}`}>
+            target={target}>
             {label} 
             {icon ? <span aria-hidden="true">{icon}</span> : undefined}
             </a>
+            </Button>
         )
     } else {
         return (
-            <button className={`btn btn-primary ${classes}`}>
+            <Button className={`btn bg-blue-600 btn-primary ${classes}`}>
                 {label}
                 {icon ? <span aria-hidden="true">{icon}</span> : undefined}
-            </button>
+            </Button>
         )
     }
 }
