@@ -26,7 +26,7 @@ const Certificate = () => {
         <section id="certificate" className="section overflow-hidden">
             <div className="container">
                 <h2 className="headline-2 mb-8 reveal-up">
-                    Certificate
+                    <span className="headline-5">Certificate</span>
                 </h2>
                 <div className="scrub-slide flex items-stretch gap-3 w-fit">
                     {reviews.map(({

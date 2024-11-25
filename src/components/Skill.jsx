@@ -45,7 +45,7 @@ const Skill = () => {
         <section id="tools" className="section">
             <div className="container">
                 <h2 className="headline-2 reveal-up">
-                Tech Stack
+                  <span className="headline-5">Tech Stack</span>
                 </h2>
                 <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch]">                
                    Advanced technology I use to create websites.

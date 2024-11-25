@@ -27,7 +27,7 @@ const Work = () => {
         <section id="project" className="section">
             <div className="container">
               <h2 className="headline-2 mb-8 reveal-up">
-                My portfolio highlights
+                My <span className="headline-5">portfolio</span> highlights
               </h2>
               <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
                 {works.map(({

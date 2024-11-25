@@ -59,6 +59,24 @@ html {
   @apply text-[22px] font-normal 
 }
 
+.headline-3 {
+  background: -webkit-linear-gradient(90deg, #3b82f6, #9333ea); /* Biru ke ungu */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.headline-4 {
+  background: -webkit-linear-gradient(90deg, #a78bfa, #7c3aed); /* Ungu Pastel ke Ungu Tua */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.headline-5 {
+  background: -webkit-linear-gradient(90deg, #7928ca, #0070f3); /* Accent ke Cyan */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 /* components */
 
 .menu-btn {
@@ -113,7 +131,7 @@ html {
 }
 
 .btn-primary {
-  @apply h-11 text-zinc-50 hover:bg-blue-500 active:bg-sky-500 transition
+  @apply h-11 text-zinc-50 hover:bg-blue-400 active:bg-sky-400 transition
 }
 
 .btn-outline {

@@ -16,9 +16,7 @@ const SkillCard = ({ imgSrc, label, desc, progress, classes }) => {
             size="sm"
             classNames={{ track: "bg-gray-400 rounded-full" }}
             value={progress}
-            showValueLabel={false}
-            label="Progress"  
-            />
+            showValueLabel={false}/>
             <span className="absolute top-[-20px] right-0 text-sm text-white pr-2">
             {progress}%
           </span>

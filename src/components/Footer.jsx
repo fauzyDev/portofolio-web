@@ -47,7 +47,7 @@ const Footer = () => {
                 <div className="lg:grid lg:grid-cols-2">
                     <div className="mb-10">
                         <h2 className="headline-2 mb-8 lg:max-w-[12ch] reveal-up">
-                            Let&apos;s work together today!
+                            Let&apos;s work <span className="headline-5">together today!</span>
                         </h2>
                         <Buttons href="mailto:haliffauzy45@gmail.com" label="Start project" icon={<ArrowForwardIcon/>} classes="reveal-up"/>
                     </div>
