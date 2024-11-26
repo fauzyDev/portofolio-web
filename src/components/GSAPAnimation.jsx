@@ -17,13 +17,13 @@ export default function GSAPAnimation () {
             scrollTrigger: {
               trigger: element,
               start: "-200 bottom",
-              end: "bottom 85%",
-              scrub: 1,
+              end: "bottom 80%",
+              scrub: true,
             },
             y: 0,
             opacity: 1,
             duration: 1,
-            ease: "power1.inOut"
+            ease: "sine.inOut"
           })
         })
 
@@ -35,7 +35,7 @@ export default function GSAPAnimation () {
             scrub: 1,
           },
           x: "-1000",
-          ease: "power1.inOut"
+          ease: "expo.inOut"
         })
       })
     }

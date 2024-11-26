@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portofolio Website
 
-## Getting Started
+Portofolio pribadi ini dibuat menggunakan berbagai teknologi web modern untuk menampilkan proyek-proyek dan keterampilan saya. Website ini dibangun dengan menggunakan Next.js sebagai framework utama, serta beberapa pustaka dan framework tambahan untuk meningkatkan desain dan animasi.
 
-First, run the development server:
+## Teknologi yang Digunakan
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js**: Framework React untuk pengembangan aplikasi web yang cepat dan efisien.
+- **Next UI**: Library komponen UI untuk React yang menyediakan elemen desain modern dan responsif.
+- **Material UI**: Library komponen UI berbasis Material Design, memberikan desain konsisten dan fungsional.
+- **Tailwind CSS**: Framework utility-first CSS untuk mengembangkan antarmuka pengguna dengan cepat dan fleksibel.
+- **Lenis**: Library untuk scroll halus dan animasi smooth scroll.
+- **GSAP (GreenSock Animation Platform)**: Library JavaScript untuk membuat animasi web yang cepat dan kompleks.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Fitur
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Desain Responsif**: Menggunakan Tailwind CSS dan komponen dari Next UI dan Material UI untuk memastikan tampilan yang responsif di berbagai perangkat.
+- **Scroll Halus**: Menggunakan Lenis untuk membuat pengalaman scroll yang lebih halus dan nyaman.
+- **Animasi Lanjutan**: GSAP digunakan untuk memberikan animasi yang menarik dan interaktif pada berbagai elemen halaman.
+- **Navigasi yang Mudah**: Struktur navigasi yang sederhana dan mudah digunakan dengan transisi yang mulus antar halaman.
+- **SEO Friendly**: Dibangun dengan Next.js yang memastikan optimisasi mesin pencari (SEO) untuk visibilitas yang lebih baik di Google.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Instalasi
 
-## Learn More
+1. **Clone repository ini**:
+   ```bash
+   git clone https://github.com/fauzyDev/portofolio-web.git
 
-To learn more about Next.js, take a look at the following resources:
+## Lisensi
+Proyek ini dilisensikan di bawah lisensi MIT.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

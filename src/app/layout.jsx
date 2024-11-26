@@ -13,9 +13,34 @@ export const inter = Inter({
 })
 
 export const metadata = {
-  title: "Portofolio - Halif Fauzy",
-  description: "Selamat datang di website saya. Ini adalah portofolio website yang dibangun dengan framework Next JS",
+  title: "Portofolio Website - Halif Fauzy",
+  description: "Selamat datang di website saya. Ini adalah portofolio website yang dibangun dengan Framework Next.js",
+  keywords: [
+    "Halif Fauzy",
+    "Portofolio Website",
+    "Web Developer",
+    "Next.js",
+    "React",
+  ],
+  openGraph: {
+    title: "Portofolio Website - Halif Fauzy",
+    description: "Selamat datang di website saya. Ini adalah portofolio website yang dibangun dengan Framework Next.js",
+    url: "https://fauzy-portofolio.vercel.app",
+    type: "website",
+  },
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Portofolio Website - Halif Fauzy",
+    description: "Selamat datang di website saya. Ini adalah portofolio website yang dibangun dengan Framework Next.js",
+    url: "https://fauzy-portofolio.vercel.app",
+    author: {
+      "@type": "Person",
+      name: "Halif Fauzy",
+    },
+  },
 };
+
 
 export default function RootLayout({ children }) {
   return (
@@ -23,8 +48,8 @@ export default function RootLayout({ children }) {
       <body className={`${inter.variable} antialiased`} suppressHydrationWarning={true}>
         <GoogleTagManager gtmId="GTM-WRTCTKBL"/>
         <Providers>
-        <Header/>
-        {children}
+          <Header/>
+          {children}
         </Providers>
       </body>
     </html>

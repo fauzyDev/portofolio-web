@@ -12,13 +12,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        // background: "var(--background)",
-        // foreground: "var(--foreground)",
-      },
-      screen: {
-        "xs": "480px",
-      },
      darkMode: "class",
      fontFamily: {
         sans: ["Inter", "sans-serif"]

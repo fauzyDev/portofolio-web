@@ -1,7 +1,7 @@
 import React from 'react';
 import CertificateCard from './CertificateCard';
 
-const reviews = [
+const certificate = [
     {
       name: 'Belajar Dasar-Dasar DevOps',
       imgSrc: '/images/',
@@ -26,10 +26,10 @@ const Certificate = () => {
         <section id="certificate" className="section overflow-hidden">
             <div className="container">
                 <h2 className="headline-2 mb-8 reveal-up">
-                    <span className="headline-5">Certificate</span>
+                  Certif<span className="headline-5">icate</span>
                 </h2>
                 <div className="scrub-slide flex items-stretch gap-3 w-fit">
-                    {reviews.map(({
+                    {certificate.map(({
                         name, imgSrc
                     }, key) => (
                         <CertificateCard key={key} name={name} imgSrc={imgSrc}/>

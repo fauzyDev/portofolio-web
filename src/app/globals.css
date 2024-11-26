@@ -7,7 +7,6 @@ html {
 }
 
 /* utilities */
-
 .material-symbols {
   @apply w-[1em] h-[1em] overflow-hidden;
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
@@ -30,7 +29,7 @@ html {
 }
 
 .reveal-up {
-  @apply translate-y-20 opacity-0 will-change-transform
+  @apply translate-y-20 will-change-transform opacity-0
 }
 
 .scrub-slide {
@@ -38,7 +37,6 @@ html {
 }
 
 /* typography */
-
 .headline-1, .headline-2 {
   @apply max-w-max;
   background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
@@ -60,7 +58,7 @@ html {
 }
 
 .headline-3 {
-  background: -webkit-linear-gradient(90deg, #3b82f6, #9333ea); /* Biru ke ungu */
+  background: -webkit-linear-gradient(90deg, #06b6d4, #9333ea); /* Cyan ke Ungu Tua */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -73,12 +71,12 @@ html {
 }
 
 .headline-5 {
-  background: -webkit-linear-gradient(90deg, #7928ca, #0070f3); /* Accent ke Cyan */
+  background: -webkit-linear-gradient(90deg, #00e6ff, #7928ca); /* Cyan Neon ke Ungu Accent */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-/* components */
 
+/* components */
 .menu-btn {
   @apply w-12 h-12 grid place-items-center bg-zinc-50/10 rounded-xl ring-inset ring-1 ring-zinc-50/[0.02] backdrop-blur-2xl hover:bg-zinc-50/15 transition-[transform,background-color] active:scale-95;
 }
@@ -139,7 +137,6 @@ html {
 }
 
 /* text field */
-
 .label {
   @apply block text-zinc-200 text-sm font-normal mb-2
 }

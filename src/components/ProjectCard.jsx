@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from './Project';
 
-const works = [
+const project = [
     {
       imgSrc: '/images/',
       title: 'Spotify Clone',
@@ -22,7 +22,7 @@ const works = [
     },
   ];
 
-const Work = () => {
+const ProjectCard = () => {
     return (
         <section id="project" className="section">
             <div className="container">
@@ -30,7 +30,7 @@ const Work = () => {
                 My <span className="headline-5">portfolio</span> highlights
               </h2>
               <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
-                {works.map(({
+                {project.map(({
                   imgSrc, title, tags, projectLink
                 }, key) => (
                     <Project key={key} imgSrc={imgSrc} title={title} tags={tags} projectLink={projectLink} classes="reveal-up"/>
@@ -41,4 +41,4 @@ const Work = () => {
     );
 }
 
-export default Work;
+export default ProjectCard;

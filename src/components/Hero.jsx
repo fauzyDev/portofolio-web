@@ -24,7 +24,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10 ">
-                    Hello, My Name <span className="headline-3">is Fauzy</span>, I&apos;am a <span className="headline-4">Web Development</span>
+                        Hello, My Name <span className="headline-3">is Fauzy,</span> I&apos;am a <span className="headline-4">Web Development</span>
                     </h2>
                     <div className="flex items-center gap-3 ">
                         <Buttons label="Download CV" icon={<DownloadSharpIcon/>}/>
