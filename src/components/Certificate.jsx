@@ -18,6 +18,10 @@ const certificate = [
       name: 'Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)',
       imgSrc: '/images/',
     },
+    {
+      name: 'Cooming soon',
+      imgSrc: '',
+    },
   ];
 
 const Certificate = () => {
