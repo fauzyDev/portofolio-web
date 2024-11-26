@@ -3,40 +3,60 @@ import SkillCard from './SkillCard';
 
 const skillItem = [
     {
-      imgSrc: '/images/javascript.svg',
-      label: 'JavaScript',
-      desc: 'Language Programming',
-      progress: '52'
+      title: "Language Programming",
+      items: [
+        {
+          imgSrc: '/images/javascript.svg',
+          label: 'JavaScript',
+          desc: 'Language Programming',
+          progress: '52'
+        }
+      ]
     },
     {
-      imgSrc: '/images/nodejs.svg',
-      label: 'NodeJS',
-      desc: 'Web Server',
-      progress: '15'
+      title: "Web Server",
+      items: [
+        {
+          imgSrc: '/images/nodejs.svg',
+          label: 'NodeJS',
+          desc: 'Web Server',
+          progress: '15'
+        }
+      ]
     },
     {
-      imgSrc: '/images/expressjs.svg',
-      label: 'ExpressJS',
-      desc: 'Node Framework',
-      progress: '20'
+      title: "Framework",
+      items: [
+        {
+          imgSrc: '/images/expressjs.svg',
+          label: 'ExpressJS',
+          desc: 'Node Framework',
+          progress: '20'
+        },
+        {
+          imgSrc: '/images/nextjs.svg',
+          label: 'Next JS',
+          desc: 'Framework',
+          progress: '40'
+        },
+        {
+          imgSrc: '/images/react.svg',
+          label: 'React',
+          desc: 'Framework',
+          progress: '40'
+        },
+      ]
     },
     {
-      imgSrc: '/images/nextjs.svg',
-      label: 'Next JS',
-      desc: 'Framework',
-      progress: '40'
-    },
-    {
-      imgSrc: '/images/react.svg',
-      label: 'React',
-      desc: 'Framework',
-      progress: '40'
-    },
-    {
-      imgSrc: '/images/tailwindcss.svg',
-      label: 'TailwindCSS',
-      desc: 'User Interface',
-      progress: '27'
+      title: "Styling",
+      items: [
+        {
+          imgSrc: '/images/tailwindcss.svg',
+          label: 'TailwindCSS',
+          desc: 'User Interface',
+          progress: '27'
+        }
+      ]
     },
   ];
 
@@ -51,12 +71,16 @@ const Skill = () => {
                    Advanced technology I use to create websites.
                 </p>
                 <div className="grid gap-3 grid-cols-[repeat(auto+fill,_minmax(250px,_1fr))]">
-                    {
-                        skillItem.map(({
-                            imgSrc, label, desc, progress
-                        }, key)=> (
-                            <SkillCard key={key} imgSrc={imgSrc} label={label} desc={desc} progress={progress} classes="reveal-up"/>
-                        ))
+                    {skillItem.map((data, key) => (
+                        <div key={key}>
+                          <h5 className="text-lg mb-1 reveal-up">{data.title}</h5>
+                          <ul>
+                            {data.items.map(({ imgSrc, label, desc, progress }, key) => (
+                              <SkillCard key={key} imgSrc={imgSrc} label={label} desc={desc} progress={progress} classes="reveal-up"/>
+                            ))}
+                          </ul>
+                        </div>
+                      ))
                     }
                 </div>
             </div>

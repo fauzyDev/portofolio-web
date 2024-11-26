@@ -9,7 +9,7 @@ const CertificateCard = ({ content, name, imgSrc, company }) => {
             </p>
             <div className="flex items-center gap-2 mt-auto">
                 <figure className="img-box rounded-lg">
-                    <Image src={imgSrc} width={44} height={44} loading="lazy" className="img-cover" alt={name}/>
+                    <Image src={imgSrc} width={250} height={250} loading="lazy" className="img-cover" alt={name}/>
                 </figure>
                 <div>
                     <p>{name}</p>
