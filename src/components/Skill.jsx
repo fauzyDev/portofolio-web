@@ -63,7 +63,7 @@ const skillItem = [
       items: [
         {
           imgSrc: '/images/prisma.svg',
-          label: 'Prisma',
+          label: 'Prisma ORM',
           desc: 'Database',
           progress: '30'
         }
@@ -76,6 +76,17 @@ const skillItem = [
           imgSrc: '/images/supabase.svg',
           label: 'Supabase',
           desc: 'Cloud Service',
+          progress: '25'
+        }
+      ]
+    },
+    {
+      title: "Hosting Platform",
+      items: [
+        {
+          imgSrc: '/images/vercel.svg',
+          label: 'Vercel',
+          desc: 'Hosting',
           progress: '25'
         }
       ]

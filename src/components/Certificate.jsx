@@ -6,22 +6,22 @@ const certificate = [
       name: 'Belajar Dasar-Dasar DevOps',
       imgSrc: '/images/sertifikat-devops.png',
     },
-    // {
-    //   name: 'Belajar Dasar Pemrograman JavaScript',
-    //   imgSrc: '/images/',
-    // },
-    // {
-    //   name: 'Belajar Membuat Aplikasi Back-End untuk Pemula',
-    //   imgSrc: '/images/',
-    // },
-    // {
-    //   name: 'Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)',
-    //   imgSrc: '/images/',
-    // },
-    // {
-    //   name: 'Cooming soon',
-    //   imgSrc: '/images/',
-    // },
+    {
+      name: 'Belajar Dasar Pemrograman JavaScript',
+      imgSrc: '/images/',
+    },
+    {
+      name: 'Belajar Membuat Aplikasi Back-End untuk Pemula',
+      imgSrc: '/images/',
+    },
+    {
+      name: 'Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)',
+      imgSrc: '/images/',
+    },
+    {
+      name: 'Cooming soon',
+      imgSrc: '/images/',
+    },
   ];
 
 const Certificate = () => {

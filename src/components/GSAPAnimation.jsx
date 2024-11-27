@@ -27,15 +27,6 @@ export default function GSAPAnimation () {
           })
         })
 
-        timeline.to(".scrub-slide", {
-          scrollTrigger: {
-            trigger: ".scrub-slide",
-            start: "-200% 80%",
-            end: "400% 80%",
-            scrub: 1,
-          },
-          x: "-1000",
-          ease: "expo.inOut"
-        })
+        
       })
     }
