@@ -14,6 +14,17 @@ const skillItem = [
       ]
     },
     {
+      title: "Styling",
+      items: [
+        {
+          imgSrc: '/images/tailwindcss.svg',
+          label: 'TailwindCSS',
+          desc: 'User Interface',
+          progress: '27'
+        }
+      ]
+    },
+    {
       title: "Web Server",
       items: [
         {
@@ -48,13 +59,35 @@ const skillItem = [
       ]
     },
     {
-      title: "Styling",
+      title: "Database",
       items: [
         {
-          imgSrc: '/images/tailwindcss.svg',
-          label: 'TailwindCSS',
-          desc: 'User Interface',
-          progress: '27'
+          imgSrc: '/images/prisma.svg',
+          label: 'Prisma',
+          desc: 'Database',
+          progress: '30'
+        }
+      ]
+    },
+    {
+      title: "Cloud Service",
+      items: [
+        {
+          imgSrc: '/images/supabase.svg',
+          label: 'Supabase',
+          desc: 'Cloud Service',
+          progress: '25'
+        }
+      ]
+    },
+    {
+      title: "Package Manager",
+      items: [
+        {
+          imgSrc: '/images/npm.svg',
+          label: 'Node Package Manager',
+          desc: 'Package Manager',
+          progress: '28'
         }
       ]
     },
