@@ -10,7 +10,7 @@ const Navbar = ({ navOpen }) => {
       activeBox.current.style.top = lastActiveLink.current.offsetTop + 'px'
       activeBox.current.style.left = lastActiveLink.current.offsetLeft + 'px'
       activeBox.current.style.width = lastActiveLink.current.offsetWidth + 'px'
-      activeBox.current.style.heigh = lastActiveLink.current.offsetHeight + 'px'
+      activeBox.current.style.height = lastActiveLink.current.offsetHeight + 'px'
     }
 
     React.useEffect(() => {
@@ -27,7 +27,7 @@ const Navbar = ({ navOpen }) => {
       activeBox.current.style.top = event.target.offsetTop + 'px'
       activeBox.current.style.left = event.target.offsetLeft + 'px'
       activeBox.current.style.width = event.target.offsetWidth + 'px'
-      activeBox.current.style.heigh = event.target.offsetHeight + 'px'
+      activeBox.current.style.height = event.target.offsetHeight + 'px'
     }
 
     const navItems = [

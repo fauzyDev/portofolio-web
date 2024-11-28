@@ -1,4 +1,6 @@
 // app/providers.jsx
+"use client"
+
 import React from 'react'
 import { NextUIProvider } from '@nextui-org/react'
 import NextTheme from '@/components/NextTheme'
@@ -11,4 +13,4 @@ export function Providers({ children }) {
       </NextTheme>
     </NextUIProvider>
   )
-}
+} 
