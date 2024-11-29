@@ -32,7 +32,7 @@ const Certificate = () => {
                 <h2 className="headline-2 mb-8 reveal-up">
                   Certif<span className="headline-5">icate</span>
                 </h2>
-                <div className="scrub-slide flex items-stretch gap-3 w-fit">
+                <div className="grid flex-col grid-cols-4 lg:grid-cols-2 sm:grid-cols-1 gap-4">
                     {certificate.map(({
                         name, imgSrc
                     }, key) => (

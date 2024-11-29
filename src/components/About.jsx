@@ -8,7 +8,6 @@ const About = () => {
                     <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
                     👋 Hello!, I am Fauzy, a web developer with expertise in 
                     JavaScript, Express js, React js, Next js, Prisma ORM, and Vercel. I am committed to creating innovative and efficient web applications.
-
                     My interest in networking also supports my understanding of application infrastructure.
                     </p>
                 </div>

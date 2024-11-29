@@ -26,7 +26,5 @@ export default function GSAPAnimation () {
             ease: "sine.inOut"
           })
         })
-
-        
       })
     }
