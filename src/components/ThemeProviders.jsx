@@ -7,5 +7,5 @@ export default function NextThemeProvider({ children }) {
         <NextThemesProvider attribute="class" defaultTheme="dark">
           {children}
         </NextThemesProvider>
-    )
-  }
+      )
+    }
