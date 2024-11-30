@@ -29,7 +29,7 @@ const Hero = () => {
                     <div className="flex items-center gap-3 ">
                         <Buttons label="Download CV" icon={<DownloadSharpIcon/>}/>
                         {link.map(({ link }, key) => (
-                        <ButtonExtend key={key} href={link} label="Connect Me" icon={<ArrowOutwardIcon/>}/>
+                        <ButtonExtend key={key} href={link} label="Connect to Me" icon={<ArrowOutwardIcon/>}/>
                         ))}
                     </div>
                 </div>

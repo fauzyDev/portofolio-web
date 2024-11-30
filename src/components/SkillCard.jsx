@@ -13,8 +13,9 @@ const SkillCard = ({ imgSrc, label, desc, progress, classes }) => {
         <p className="text-zinc-400 text-sm">{desc}</p>
         <div className="relative">
           <Progress
+            color="success"
             size="sm"
-            classNames={{ track: "bg-gray-400 rounded-full" }}
+            classNames={{ track: "bg-gray-300 rounded-full" }}
             value={progress}
             showValueLabel={false}/>
             <span className="absolute top-[-20px] right-0 text-sm text-white pr-2">

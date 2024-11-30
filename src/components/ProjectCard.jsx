@@ -6,19 +6,19 @@ const project = [
       imgSrc: '/images/',
       title: 'Spotify Clone',
       tags: ['API', 'MVC', 'Development'],
-      projectLink: ''
+      projectLink: 'https://github.com/fauzyDev/Spotify-Clone'
     },
     {
       imgSrc: '/images/',
       title: 'Fananime list',
       tags: ['API', 'SPA'],
-      projectLink: ''
+      projectLink: 'https://github.com/fauzyDev/Fananime-List'
     },
     {
       imgSrc: '/images/',
       title: 'Album foto & video online',
       tags: ['Development', 'API'],
-      projectLink: ''
+      projectLink: 'https://github.com/fauzyDev/Frontend-Web-album'
     },
   ];
 

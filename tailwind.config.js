@@ -69,6 +69,6 @@ module.exports = {
   plugins: [
     tailwindScrollbar,
     nextui(),
-      require("tailwindcss-animate")
-]
+    require("tailwindcss-animate")
+	]
 };

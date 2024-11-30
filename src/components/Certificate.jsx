@@ -18,10 +18,6 @@ const certificate = [
       name: 'Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)',
       imgSrc: '/images/',
     },
-    {
-      name: 'Cooming soon',
-      imgSrc: '/images/',
-    },
   ];
 
 const Certificate = () => {
@@ -32,7 +28,7 @@ const Certificate = () => {
                 <h2 className="headline-2 mb-8 reveal-up">
                   Certif<span className="headline-5">icate</span>
                 </h2>
-                <div className="grid flex-col grid-cols-4 lg:grid-cols-2 sm:grid-cols-1 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 p-4">
                     {certificate.map(({
                         name, imgSrc
                     }, key) => (
