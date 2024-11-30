@@ -8,15 +8,15 @@ const certificate = [
     },
     {
       name: 'Belajar Dasar Pemrograman JavaScript',
-      imgSrc: '/images/',
+      imgSrc: '/images/sertifikat-js.png',
     },
     {
       name: 'Belajar Membuat Aplikasi Back-End untuk Pemula',
-      imgSrc: '/images/',
+      imgSrc: '/images/sertifikat-be.png',
     },
     {
       name: 'Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)',
-      imgSrc: '/images/',
+      imgSrc: '/images/sertifikat-cld.png',
     },
   ];
 

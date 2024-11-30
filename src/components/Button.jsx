@@ -7,7 +7,8 @@ const Buttons = ({ href, target = '_self', label, icon, classes }) => {
             <Button className={`btn bg-blue-600 btn-primary ${classes}`}>
             <a 
             href={href} 
-            target={target}>
+            target={target}
+            rel="noopener noreferrer">
             {label} 
             {icon ? <span aria-hidden="true">{icon}</span> : undefined}
             </a>
@@ -30,7 +31,8 @@ const ButtonExtend = ({ href, target = '_self', label, icon, classes }) => {
             <Button color="default" className={`btn btn-outline ${classes}`}>
             <a 
             href={href} 
-            target={target}>
+            target={target}
+            rel="noopener noreferrer">
             {label} 
             {icon ? <span aria-hidden="true">{icon}</span> : undefined}
             </a>
