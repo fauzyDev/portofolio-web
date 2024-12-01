@@ -9,7 +9,7 @@ const project = [
       projectLink: 'https://github.com/fauzyDev/Spotify-Clone'
     },
     {
-      imgSrc: '/images/',
+      imgSrc: '/images/project1.png',
       title: 'Fananime list',
       tags: ['API', 'SPA'],
       projectLink: 'https://github.com/fauzyDev/Fananime-List'
@@ -38,7 +38,7 @@ const ProjectCard = () => {
               </div>
             </div>
         </section>
-    );
-}
+      );
+    }
 
 export default ProjectCard;
