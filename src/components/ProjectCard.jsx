@@ -3,7 +3,7 @@ import Project from './Project';
 
 const project = [
     {
-      imgSrc: '/images/',
+      imgSrc: '/images/project2.png',
       title: 'Spotify Clone',
       tags: ['API', 'MVC', 'Development'],
       projectLink: 'https://github.com/fauzyDev/Spotify-Clone'

@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import LaunchSharpIcon from '@mui/icons-material/LaunchSharp';
-
 const Project = ({ imgSrc, title, tags, projectLink, classes }) => {
     return (
         <div className={`relative p-4 rounded-2xl bg-zinc-800 hover:bg-zinc-700/50 active:bg-zinc-700/60 ring-1 ring-inset ring-zinc-50/5 transition-colors ${classes}`}>
