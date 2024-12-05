@@ -3,6 +3,10 @@ import CertificateCard from './CertificateCard';
 
 const certificate = [
     {
+      name: 'Belajar Jaringan Komputer untuk Pemula',
+      imgSrc: '/images/sertifikat-jaringan.png',
+    },
+    {
       name: 'Belajar Dasar-Dasar DevOps',
       imgSrc: '/images/sertifikat-devops.png',
     },
