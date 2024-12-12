@@ -15,6 +15,12 @@ const project = [
       projectLink: 'https://github.com/fauzyDev/Fananime-List'
     },
     {
+      imgSrc: '/images/project3.png',
+      title: 'Miko Ai | Chat ai',
+      tags: ['Development', 'API'],
+      projectLink: 'https://github.com/fauzyDev/MIKOCHAT-AI'
+    },
+    {
       imgSrc: '/images/',
       title: 'Album foto & video online',
       tags: ['Development', 'API'],

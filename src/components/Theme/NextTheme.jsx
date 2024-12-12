@@ -3,7 +3,7 @@
 import React from "react"
 import dynamic from "next/dynamic"
 
-const NextThemeProvider = dynamic(() => import("@/components/ThemeProviders"), { ssr: false })
+const NextThemeProvider = dynamic(() => import("@/components/Theme/ThemeProviders"), { ssr: false })
 
 export default function NextTheme({ children }) {
     return( 
