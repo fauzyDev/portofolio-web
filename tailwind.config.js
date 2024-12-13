@@ -2,8 +2,9 @@
 
 import tailwindScrollbar from "tailwind-scrollbar"
 import { nextui } from "@nextui-org/react";
+import tailwindAnimate from "tailwindcss-animate"
 
-module.exports = {
+const tailwindConfig = {
     darkMode: ["class"],
     content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -21,6 +22,7 @@ module.exports = {
   },
   plugins: [
     tailwindScrollbar,
+    tailwindAnimate,
     nextui({
       layout: {
         dividerWeight: "1px", // h-divider the default height applied to the divider component
@@ -67,6 +69,8 @@ module.exports = {
         },
       },
     }),
-    require("tailwindcss-animate")
+    
 	]
 };
+
+export default tailwindConfig;

@@ -80,9 +80,9 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="flex items-center justify-between pt-10 mb-8">
-                    <div className="w-14 h-14"></div>
-                    <p className="text-zinc-300 text-sm reveal-up">
-                        &copy; 2024 <span className="text-zinc-50">Fauzy</span>
+                    <div className="w-16 h-16"></div>
+                    <p className="text-zinc-300 text-sm reveal-up font-semibold">
+                        &copy; 2024 <span className="text-zinc-50 font-bold">Fauzy</span>
                     </p>
                 </div>
             </div>
