@@ -4,15 +4,14 @@ import { Button } from "@nextui-org/button";
 const Buttons = ({ href, target = '_self', label, icon, classes }) => {
     if (href) {
         return (
-            <Button className={`btn bg-blue-600 btn-primary ${classes}`}>
-            <a 
+            <a
+            className={`btn bg-blue-600 btn-primary ${classes}`} 
             href={href} 
             target={target}
             rel="noopener noreferrer">
             {label} 
             {icon ? <span aria-hidden="true">{icon}</span> : undefined}
             </a>
-            </Button>
         )
     } else {
         return (
@@ -28,15 +27,14 @@ const Buttons = ({ href, target = '_self', label, icon, classes }) => {
 const ButtonExtend = ({ href, target = '_self', label, icon, classes }) => {
     if (href) {
         return (
-            <Button color="default" className={`btn btn-outline ${classes}`}>
-            <a 
+            <a
+            className={`btn btn-outline ${classes}`} 
             href={href} 
             target={target}
             rel="noopener noreferrer">
             {label} 
             {icon ? <span aria-hidden="true">{icon}</span> : undefined}
             </a>
-            </Button>
         )
     } else {
         return (
