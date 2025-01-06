@@ -13,7 +13,7 @@ const CertificateCard = ({ name, imgSrc }) => {
             </figure>
           </div>
         </div>
-    );
-}
+      );
+    }
 
 export default CertificateCard;

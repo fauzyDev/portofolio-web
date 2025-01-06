@@ -11,4 +11,4 @@ export default function NextTheme({ children }) {
         {children}
       </NextThemeProvider> 
     )
-}
+  }

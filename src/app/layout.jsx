@@ -5,46 +5,46 @@ import "./globals.css";
 import 'lenis/dist/lenis.css'
 import Header from "@/components/Header";
 
-export const inter = Inter({
-  subsets: ['latin'],
-  style: ['normal'],
-  weight: ['500']
-})
+const inter = Inter({
+    subsets: ['latin'],
+    weight: ['500'],
+    style: ['normal'],
+  })
 
 export const metadata = {
-  title: "Portofolio Website - Halif Fauzy",
-  description: "Selamat datang di website saya. Ini adalah portofolio website yang dibangun dengan Framework Next.js",
-  keywords: [
-    "Halif Fauzy",
-    "Portofolio Website",
-    "Web Developer",
-    "Next.js",
-    "React",
-  ],
-  openGraph: {
     title: "Portofolio Website - Halif Fauzy",
     description: "Selamat datang di website saya. Ini adalah portofolio website yang dibangun dengan Framework Next.js",
-    url: "https://fauzy-portofolio.vercel.app",
-    type: "website",
-  },
-  schema: {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    name: "Portofolio Website - Halif Fauzy",
-    description: "Selamat datang di website saya. Ini adalah portofolio website yang dibangun dengan Framework Next.js",
-    url: "https://fauzy-portofolio.vercel.app",
-    author: {
-      "@type": "Person",
-      name: "Halif Fauzy",
+    keywords: [
+      "Halif Fauzy",
+      "Portofolio Website",
+      "Web Developer",
+      "Next.js",
+      "React",
+    ],
+  openGraph: {
+      title: "Portofolio Website - Halif Fauzy",
+      description: "Selamat datang di website saya. Ini adalah portofolio website yang dibangun dengan Framework Next.js",
+      url: "https://fauzy-portofolio.vercel.app",
+      type: "website",
     },
-  },
-};
+  schema: {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: "Portofolio Website - Halif Fauzy",
+      description: "Selamat datang di website saya. Ini adalah portofolio website yang dibangun dengan Framework Next.js",
+      url: "https://fauzy-portofolio.vercel.app",
+      author: {
+        "@type": "Person",
+        name: "Halif Fauzy",
+      },
+    },
+  };
 
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="text-zinc-50 scrollbar-thin scrollbar-track-zinc-800 scrollbar-thumb-zinc-500">
-      <body className={`${inter.variable} antialiased`} suppressHydrationWarning={true}>
+      <body className={`${inter.className} antialiased`} suppressHydrationWarning={true}>
         <GoogleTagManager gtmId="GTM-WRTCTKBL"/>
         <Providers>
           <Header/>

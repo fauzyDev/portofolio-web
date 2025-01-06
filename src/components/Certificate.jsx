@@ -41,7 +41,7 @@ const Certificate = () => {
                 </div>
             </div>
         </section>
-    );
-}
+      );
+    }
 
 export default Certificate;

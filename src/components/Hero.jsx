@@ -27,7 +27,7 @@ const Hero = () => {
                         Hello, My Name <span className="headline-3">is Fauzy,</span> I&apos;am a <span className="headline-4">Web Developer</span>
                     </h2>
                     <div className="flex items-center gap-3 ">
-                        <Buttons label="Download CV" icon={<DownloadSharpIcon/>}/>
+                        <Buttons disabled label="Download CV" icon={<DownloadSharpIcon/>}/>
                         {link.map(({ link }, key) => (
                         <ButtonExtend key={key} href={link} label="Connect to Me" icon={<ArrowOutwardIcon/>}/>
                         ))}
