@@ -125,11 +125,11 @@ html {
 }
 
 .btn-primary {
-  @apply h-11 text-zinc-50 hover:bg-blue-400 active:bg-sky-400 transition
+  @apply h-11 text-zinc-50 hover:bg-blue-500 active:bg-sky-500 transition
 }
 
 .btn-outline {
-  @apply h-11 hover:bg-zinc-500 active:bg-zinc-800
+  @apply h-11 bg-zinc-600 hover:bg-zinc-700 active:bg-zinc-800 transition
 }
 
 /* text field */

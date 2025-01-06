@@ -28,7 +28,7 @@ const ButtonExtend = ({ href, target = '_self', label, icon, classes }) => {
     if (href) {
         return (
             <a
-            className={`btn btn-outline ${classes}`} 
+            className={`btn btn-outline text-center ${classes}`} 
             href={href} 
             target={target}
             rel="noopener noreferrer">

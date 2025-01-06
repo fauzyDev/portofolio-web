@@ -26,8 +26,8 @@ const Project = ({ imgSrc, title, tags, projectLink, classes }) => {
                     </span>
                 </div>
             </div>
-            <a href={projectLink} target="_blank" className="absolute inset-0"></a>
-        </div>
+            <a href={projectLink} rel="noopener noreferrer" target="_blank" className="absolute inset-0"></a>
+        </div> 
     );
 }
 
