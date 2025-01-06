@@ -3,7 +3,6 @@ import { GoogleTagManager } from '@next/third-parties/google'
 import { Providers } from './providers';
 import "./globals.css";
 import 'lenis/dist/lenis.css'
-
 import Header from "@/components/Header";
 
 export const inter = Inter({
