@@ -27,14 +27,14 @@ const Buttons = ({ href, target = '_self', label, icon, classes }) => {
 const ButtonExtend = ({ href, target = '_self', label, icon, classes }) => {
     if (href) {
         return (
-            <a
+            <Button as="a"
             className={`btn btn-outline text-center ${classes}`} 
             href={href} 
             target={target}
             rel="noopener noreferrer">
             {label} 
             {icon ? <span aria-hidden="true">{icon}</span> : undefined}
-            </a>
+            </Button>
         )
     } else {
         return (
