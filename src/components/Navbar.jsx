@@ -61,6 +61,11 @@ const Navbar = ({ navOpen }) => {
           label: 'Contact',
           link: '#contact',
           className: 'nav-link md:hidden'
+        },
+        {
+          label: 'FUZAI',
+          link: '/fuzai',
+          className: 'nav-link'
         }
       ];
 

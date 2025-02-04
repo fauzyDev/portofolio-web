@@ -3,6 +3,7 @@
 import tailwindScrollbar from "tailwind-scrollbar"
 import { nextui } from "@nextui-org/react";
 import tailwindAnimate from "tailwindcss-animate"
+import preline from "preline/plugin"
 
 const tailwindConfig = {
     darkMode: ["class"],
@@ -10,7 +11,8 @@ const tailwindConfig = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/preline/preline.js",
   ],
   theme: {
   	extend: {
@@ -23,6 +25,7 @@ const tailwindConfig = {
   plugins: [
     tailwindScrollbar,
     tailwindAnimate,
+    preline,
     nextui({
       layout: {
         dividerWeight: "1px", // h-divider the default height applied to the divider component

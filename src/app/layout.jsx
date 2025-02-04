@@ -3,7 +3,6 @@ import { GoogleTagManager } from '@next/third-parties/google'
 import { Providers } from './providers';
 import "./globals.css";
 import 'lenis/dist/lenis.css'
-import Header from "@/components/Header";
 
 const inter = Inter({
     subsets: ['latin'],
@@ -47,7 +46,6 @@ export default function RootLayout({ children }) {
       <body className={`${inter.className} antialiased`} suppressHydrationWarning={true}>
         <GoogleTagManager gtmId="GTM-WRTCTKBL"/>
         <Providers>
-          <Header/>
           {children}
         </Providers>
       </body>
