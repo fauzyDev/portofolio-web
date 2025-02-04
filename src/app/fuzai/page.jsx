@@ -32,7 +32,6 @@ export default function page() {
               <ellipse cx="19" cy="18.6554" rx="3.75" ry="3.6" fill="white" />
             </svg>
 
-           
             <div className="bg-white border border-gray-200 rounded-lg p-4 space-y-3 dark:bg-neutral-900 dark:border-neutral-700">
               <div className="space-y-1.5">
                 <p className="text-sm text-gray-800 dark:text-white">
