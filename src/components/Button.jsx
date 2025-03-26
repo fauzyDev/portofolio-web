@@ -4,18 +4,18 @@ import { Button } from "@nextui-org/button";
 const Buttons = ({ href, target = '_self', label, icon, classes }) => {
     if (href) {
         return (
-            <a
-            className={`btn bg-blue-600 btn-primary ${classes}`} 
+            <Button as="a"
+            className={`btn bg-blue-600 btn-primary text-center text-base ${classes}`} 
             href={href} 
             target={target}
             rel="noopener noreferrer">
             {label} 
             {icon ? <span aria-hidden="true">{icon}</span> : undefined}
-            </a>
+            </Button>
         )
     } else {
         return (
-            <Button className={`btn bg-blue-600 btn-primary ${classes}`}>
+            <Button className={`btn bg-blue-600 btn-primary text-center text-base ${classes}`}>
                 {label}
                 {icon ? <span aria-hidden="true">{icon}</span> : undefined}
             </Button>
@@ -28,7 +28,7 @@ const ButtonExtend = ({ href, target = '_self', label, icon, classes }) => {
     if (href) {
         return (
             <Button as="a"
-            className={`btn btn-outline text-center ${classes}`} 
+            className={`btn btn-outline text-center text-base ${classes}`} 
             href={href} 
             target={target}
             rel="noopener noreferrer">
@@ -38,7 +38,7 @@ const ButtonExtend = ({ href, target = '_self', label, icon, classes }) => {
         )
     } else {
         return (
-            <Button color="default" className={`btn btn-outline ${classes}`}>
+            <Button color="default" className={`btn btn-outline text-center text-base ${classes}`}>
                 {label}
                 {icon ? <span aria-hidden="true">{icon}</span> : undefined}
             </Button>
