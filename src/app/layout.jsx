@@ -16,7 +16,7 @@ export const metadata = {
     keywords: [
       "Halif Fauzy",
       "Portofolio Website",
-      "Web Developer",
+      "Fullstack Developer",
       "Next.js",
       "React",
     ],

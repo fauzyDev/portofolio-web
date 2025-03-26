@@ -10,6 +10,12 @@ const link = [
     }
 ]
 
+const linkDownload = [
+    {   download: "Halif_Fullstack_Developer.pdf",
+        linkDownload: "https://drive.google.com/file/d/1-c-LYxXKS69d3GFVZHgmcEFUlruodQRN/view?usp=drivesdk"
+    }
+]
+
 const Hero = () => {
     return (
         <section id="home" className="pt-28 lg:pt-36">
@@ -27,15 +33,18 @@ const Hero = () => {
                         Hello, My Name <span className="headline-3">is Fauzy,</span> I&apos;am a Full<span className="headline-4">Stack Developer</span>
                     </h2>
                     <div className="flex items-center gap-3 ">
-                        <Buttons disabled label="Download CV" icon={<DownloadSharpIcon/>}/>
+                        {linkDownload.map(({ linkDownload, download }, key) => (
+                            <Buttons key={key} href={linkDownload} download={download} label="Download CV" icon={<DownloadSharpIcon />} />
+                        ))}
+
                         {link.map(({ link }, key) => (
-                        <ButtonExtend key={key} href={link} label="Connect to Me" icon={<ArrowOutwardIcon/>}/>
+                            <ButtonExtend key={key} href={link} label="Connect to Me" icon={<ArrowOutwardIcon />} />
                         ))}
                     </div>
                 </div>
                 <div className="hidden lg:block">
                     <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
-                        <Image src="/images/banner.png" priority={true} width={656} height={800} className="w-full" alt="banner"/>
+                        <Image src="/images/banner.png" priority={true} width={656} height={800} className="w-full" alt="banner" />
                     </figure>
                 </div>
             </div>
