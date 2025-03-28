@@ -17,7 +17,7 @@ const Header = () => {
                     </a> */}
                 </h1>
                 <div className="relative md:justify-self-center">
-                  <button className="menu-btn material-symbols md:hidden" onClick={() => setNavOpen((prev) => !prev)}>
+                  <button className="menu-btn material-symbols md:hidden" aria-label="Opem nav" onClick={() => setNavOpen((prev) => !prev)}>
                     <Hamburger
                         toggled={navOpen}
                         size={25}
