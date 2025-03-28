@@ -5,7 +5,7 @@ Portofolio pribadi ini dibuat menggunakan berbagai teknologi web modern untuk me
 ## Teknologi yang Digunakan
 
 - **Next.js**: Framework React untuk pengembangan aplikasi web yang cepat dan efisien.
-- **Next UI**: Library komponen UI untuk React yang menyediakan elemen desain modern dan responsif.
+- **Hero UI**: Library komponen UI untuk React yang menyediakan elemen desain modern dan responsif.
 - **Material UI**: Library komponen UI berbasis Material Design, memberikan desain konsisten dan fungsional.
 - **Tailwind CSS**: Framework utility-first CSS untuk mengembangkan antarmuka pengguna dengan cepat dan fleksibel.
 - **Lenis**: Library untuk scroll halus dan animasi smooth scroll.

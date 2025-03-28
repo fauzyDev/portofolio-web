@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import DownloadSharpIcon from '@mui/icons-material/DownloadSharp';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
-import { Buttons, ButtonExtend } from './Button';
+import { Buttons, ButtonExtend } from '../Button';
 
 const link = [
     {

@@ -1,6 +1,6 @@
 import React from 'react';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import { Buttons } from './Button';
+import { Buttons } from '@/components/Button';
 
 const sitemap = [
     {

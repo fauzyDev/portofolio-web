@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from "@nextui-org/button";
+import { Button } from "@heroui/button";
 
 const Buttons = ({ href, target = '_self', label, icon, classes }) => {
     if (href) {

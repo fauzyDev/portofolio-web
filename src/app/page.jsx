@@ -1,13 +1,13 @@
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import About from "@/components/About";
-import Skill from "@/components/Skill";
-import Work from "@/components/ProjectCard";
-import Certificate from "@/components/Certificate";
-import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
-import LenisComponent from '@/components/LenisComponent';
-import Animation from '@/components/Animation';
+import Header from "@/components/Header/Header";
+import Hero from "@/components/Hero/Hero";
+import About from "@/components/About/About";
+import Skill from "@/components/Skill/Skill";
+import Work from "@/components/Project/ProjectCard";
+import Certificate from "@/components/Certificate/Certificate";
+import Contact from "@/components/Contact/Contact";
+import Footer from "@/components/Footer/Footer";
+import LenisComponent from '@/components/libs/LenisComponent';
+import Animation from '@/components/libs/Animation';
 
 export default function Home() {   
   return (

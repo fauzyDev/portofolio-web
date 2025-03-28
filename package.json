@@ -1,48 +1,48 @@
 {
-  "name": "portofolio-web",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev --turbo",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@emotion/react": "^11.13.3",
-    "@emotion/styled": "^11.13.0",
-    "@gsap/react": "^2.1.1",
-    "@mui/icons-material": "^6.1.6",
-    "@mui/material": "^6.1.7",
-    "@next/third-parties": "^15.0.3",
-    "@nextui-org/button": "^2.0.38",
-    "@nextui-org/progress": "^2.0.34",
-    "@nextui-org/react": "^2.4.8",
-    "@nextui-org/system": "^2.2.6",
-    "@nextui-org/theme": "^2.2.11",
-    "framer-motion": "^11.12.0",
-    "gsap": "^3.12.5",
-    "hamburger-react": "^2.5.1",
-    "lenis": "^1.1.16",
-    "next": "^15.2.4",
-    "next-themes": "^0.4.3",
-    "postcss": "^8.4.49",
-    "preline": "^2.7.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "tailwind-scrollbar": "^3.1.0",
-    "tailwindcss-animate": "^1.0.7"
-  },
-  "devDependencies": {
-    "@types/node": "^22.10.5",
-    "@types/react": "^19.0.2",
-    "autoprefixer": "^10.4.20",
-    "eslint": "^8",
-    "eslint-config-next": "15.0.3",
-    "tailwindcss": "^3.4.17",
-    "typescript": "^5.7.2"
-  },
-  "engines": {
-    "node": "22.12.0"
-  }
+   "name": "portofolio-web",
+   "version": "0.1.0",
+   "private": true,
+   "scripts": {
+      "dev": "next dev --turbo",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+   },
+   "dependencies": {
+      "@emotion/react": "^11.13.3",
+      "@emotion/styled": "^11.13.0",
+      "@gsap/react": "^2.1.1",
+      "@mui/icons-material": "^6.1.6",
+      "@mui/material": "^6.1.7",
+      "@next/third-parties": "^15.0.3",
+      "@heroui/button": "2.2.16",
+      "@heroui/progress": "2.2.12",
+      "@heroui/react": "2.7.5",
+      "@heroui/system": "2.4.12",
+      "@heroui/theme": "2.4.12",
+      "framer-motion": "^11.12.0",
+      "gsap": "^3.12.5",
+      "hamburger-react": "^2.5.1",
+      "lenis": "^1.1.16",
+      "next": "^15.2.4",
+      "next-themes": "^0.4.3",
+      "postcss": "^8.4.49",
+      "preline": "^2.7.0",
+      "react": "^19.0.0",
+      "react-dom": "^19.0.0",
+      "tailwind-scrollbar": "^3.1.0",
+      "tailwindcss-animate": "^1.0.7"
+   },
+   "devDependencies": {
+      "@types/node": "^22.10.5",
+      "@types/react": "^19.0.2",
+      "autoprefixer": "^10.4.20",
+      "eslint": "^8",
+      "eslint-config-next": "15.0.3",
+      "tailwindcss": "^3.4.17",
+      "typescript": "^5.7.2"
+   },
+   "engines": {
+      "node": "22.12.0"
+   }
 }

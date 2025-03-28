@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Progress } from "@nextui-org/progress";
+import { Progress } from "@heroui/progress";
 
 const SkillCard = ({ imgSrc, label, desc, progress, classes }) => {
   return (
@@ -17,6 +17,7 @@ const SkillCard = ({ imgSrc, label, desc, progress, classes }) => {
               size="sm"
               classNames={{ track: "bg-gray-300 rounded-full" }}
               value={progress}
+              aria-label="progress"
               showValueLabel={false}/>
               <span className="absolute top-[-20px] right-0 text-sm text-white pr-2">
             {progress}%
