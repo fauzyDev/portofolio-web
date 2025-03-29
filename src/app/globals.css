@@ -125,7 +125,7 @@ html {
 }
 
 .btn-primary {
-  @apply h-11 text-zinc-50 hover:bg-blue-500 active:bg-sky-500 transition
+  @apply h-11 text-zinc-50 hover:bg-blue-700 active:bg-sky-500 transition
 }
 
 .btn-outline {
