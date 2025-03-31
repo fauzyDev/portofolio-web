@@ -29,8 +29,8 @@ const Hero = () => {
                             Available for work
                         </div>
                     </div>
-                    <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10 ">
-                        Hello, My Name <span className="headline-3">is Fauzy,</span> I&apos;am a Full<span className="headline-4">Stack Developer</span>
+                    <h2 className="font-sans headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10 ">
+                        Hello, My Name <span className="headline-3 font-sans">is Fauzy,</span> I&apos;am a Full<span className="headline-4 font-sans">Stack Developer</span>
                     </h2>
                     <div className="flex items-center gap-3 ">
                         {linkDownload.map(({ linkDownload, download }, key) => (
@@ -44,7 +44,7 @@ const Hero = () => {
                 </div>
                 <div className="hidden lg:block">
                     <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
-                        <Image src="/images/banner.png" priority width={540} height={360} alt="banner" />
+                        <Image src="/images/banner.png" priority={true} fetchPriority="high" width={540} height={360} alt="banner" />
                     </figure>
                 </div>
             </div>

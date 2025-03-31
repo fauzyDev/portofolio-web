@@ -26,6 +26,7 @@ const Header = () => {
                         color="#fff"
                         borderRadius={0}
                         animationDuration={0.5}
+                        aria-label="Toggle navigation menu"
                     />
                   </button>
                     <Navbar navOpen={navOpen}/>

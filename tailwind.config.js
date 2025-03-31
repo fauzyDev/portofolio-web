@@ -6,7 +6,6 @@ import tailwindAnimate from "tailwindcss-animate"
 import preline from "preline/plugin"
 
 const tailwindConfig = {
-    darkMode: ["class"],
     content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -22,6 +21,7 @@ const tailwindConfig = {
   		},
   	}
   },
+  darkMode: "class",
   plugins: [
     tailwindScrollbar,
     tailwindAnimate,

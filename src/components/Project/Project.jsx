@@ -5,7 +5,7 @@ const Project = ({ imgSrc, title, tags, projectLink, classes }) => {
     return (
         <div className={`relative p-4 rounded-2xl bg-zinc-800 hover:bg-zinc-700/50 active:bg-zinc-700/60 ring-1 ring-inset ring-zinc-50/5 transition-colors ${classes}`}>
             <figure className="img-box w-full max-w-lg mx-auto rounded-lg mb-4">
-                <Image src={imgSrc} width={800} height={800} loading="lazy" className="img-cover w-full h-auto object-contain" alt="image"/> 
+                <Image src={imgSrc} loading="lazy" width={800} height={800} className="img-cover w-full h-auto object-contain" alt="image"/> 
             </figure>
             <div className="flex items-center justify-between gap-4">
                 <div>
@@ -26,7 +26,7 @@ const Project = ({ imgSrc, title, tags, projectLink, classes }) => {
                     </span>
                 </div>
             </div>
-            <a href={projectLink} rel="noopener noreferrer" target="_blank" className="absolute inset-0"></a>
+            <a href={projectLink} rel="noopener noreferrer" target="_blank" aria-label="project" className="absolute inset-0"></a>
         </div> 
     );
 }
