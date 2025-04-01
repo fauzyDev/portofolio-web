@@ -6,9 +6,9 @@ import dynamic from "next/dynamic"
 const NextThemeProvider = dynamic(() => import("@/components/Theme/ThemeProviders"), { ssr: false })
 
 export default function NextTheme({ children }) {
-    return( 
-      <NextThemeProvider>
-        {children}
-      </NextThemeProvider> 
-    )
-  }
+  return (
+    <NextThemeProvider>
+      {children}
+    </NextThemeProvider>
+  )
+}

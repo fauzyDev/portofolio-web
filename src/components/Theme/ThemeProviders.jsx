@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { HeroUIProvider } from "@heroui/react"
+import { HeroUIProvider } from "@heroui/react";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
 
 export default function NextThemeProvider({ children }) {
@@ -10,5 +10,5 @@ export default function NextThemeProvider({ children }) {
         {children}
       </NextThemesProvider>
     </HeroUIProvider>
-  )
+  );
 }

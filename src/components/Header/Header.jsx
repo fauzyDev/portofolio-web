@@ -17,19 +17,19 @@ const Header = () => {
                     </a> */}
                 </h1>
                 <div className="relative md:justify-self-center">
-                  <button className="menu-btn material-symbols md:hidden" aria-label="Opem nav" onClick={() => setNavOpen((prev) => !prev)}>
-                    <Hamburger
-                        toggled={navOpen}
-                        size={25}
-                        strokeWidth={2}
-                        rotate={0}
-                        color="#fff"
-                        borderRadius={0}
-                        animationDuration={0.5}
-                        aria-label="Toggle navigation menu"
-                    />
-                  </button>
-                    <Navbar navOpen={navOpen}/>
+                    <button className="menu-btn material-symbols md:hidden" aria-label="Opem nav" onClick={() => setNavOpen((prev) => !prev)}>
+                        <Hamburger
+                            toggled={navOpen}
+                            size={25}
+                            strokeWidth={2}
+                            rotate={0}
+                            color="#fff"
+                            borderRadius={0}
+                            animationDuration={0.5}
+                            aria-label="Toggle navigation menu"
+                        />
+                    </button>
+                    <Navbar navOpen={navOpen} />
                 </div>
                 <a href="#contact" className="btn btn-secondary hover:bg-slate-400 max-md:hidden md:justify-self-end">
                     Contact Me

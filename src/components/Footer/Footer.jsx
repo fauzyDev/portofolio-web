@@ -4,41 +4,41 @@ import { Buttons } from '@/components/Button';
 
 const sitemap = [
     {
-      label: 'Home',
-      href: '#home'
+        label: 'Home',
+        href: '#home'
     },
     {
-      label: 'About',
-      href: '#about'
+        label: 'About',
+        href: '#about'
     },
     {
-      label: 'Tech Stack',
-      href: '#tools'
+        label: 'Tech Stack',
+        href: '#tools'
     },
     {
-      label: 'Certificate',
-      href: '#certificate'
+        label: 'Certificate',
+        href: '#certificate'
     },
     {
-      label: 'Contact me',
-      href: '#contact'
+        label: 'Contact me',
+        href: '#contact'
     }
-  ];
-  
-  const socials = [
+];
+
+const socials = [
     {
-      label: 'GitHub',
-      href: 'https://github.com/fauzyDev'
+        label: 'GitHub',
+        href: 'https://github.com/fauzyDev'
     },
     {
-      label: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/halif-fauzy'
+        label: 'LinkedIn',
+        href: 'https://www.linkedin.com/in/halif-fauzy'
     },
     {
-      label: 'Instagram',
-      href: 'https://www.instagram.com/fz_code4fun'
+        label: 'Instagram',
+        href: 'https://www.instagram.com/fz_code4fun'
     },
-  ];
+];
 
 const Footer = () => {
     return (
@@ -49,7 +49,7 @@ const Footer = () => {
                         <h2 className="headline-2 mb-8 lg:max-w-[12ch] reveal-up">
                             Let&apos;s work <span className="headline-5">together today!</span>
                         </h2>
-                        <Buttons href="mailto:haliffauzy45@gmail.com" label="Start project" icon={<ArrowForwardIcon/>} classes="reveal-up"/>
+                        <Buttons href="mailto:haliffauzy45@gmail.com" label="Start project" icon={<ArrowForwardIcon />} classes="reveal-up" />
                     </div>
                     <div className="grid grid-cols-2 gap-4 lg:pl-20">
                         <div>

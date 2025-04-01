@@ -11,7 +11,8 @@ const link = [
 ]
 
 const linkDownload = [
-    {   download: "Halif_Fullstack_Developer.pdf",
+    {
+        download: "Halif_Fullstack_Developer.pdf",
         linkDownload: "https://drive.google.com/file/d/1-c-LYxXKS69d3GFVZHgmcEFUlruodQRN/view?usp=drivesdk"
     }
 ]
