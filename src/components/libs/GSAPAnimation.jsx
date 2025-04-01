@@ -1,18 +1,18 @@
-"use client"
+"use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger"
-import { useGSAP } from '@gsap/react';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
 
-// plugin GSAP
+// Register plugin GSAP
 gsap.registerPlugin(ScrollTrigger);
 
 export default function GSAPAnimation() {
   useGSAP(() => {
     const timeline = gsap.timeline({ smoothChildTiming: true });
 
-    const elements = gsap.utils.toArray('.reveal-up')
+    const elements = gsap.utils.toArray('.reveal-up');
     elements.forEach((element) => {
       timeline.to(element, {
         scrollTrigger: {
@@ -26,18 +26,18 @@ export default function GSAPAnimation() {
         y: 0,
         opacity: 1,
         duration: 1,
-        ease: "sine.inOut"
-      })
-    })
-  })
-
-  React.useEffect(() => {
-    const refreshScrollTrigger = () => ScrollTrigger.refresh();
-    window.addEventListener("load", refreshScrollTrigger);
+        ease: "sine.inOut",
+      });
+    });
 
     return () => {
-      window.removeEventListener("load", refreshScrollTrigger);
+      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
     };
+  }, []);
+
+  React.useEffect(() => {
+    const timeout = setTimeout(() => ScrollTrigger.refresh(), 1000);
+    return () => clearTimeout(timeout);
   }, []);
 
   return null;
