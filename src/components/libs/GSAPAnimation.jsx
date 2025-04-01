@@ -21,7 +21,6 @@ export default function GSAPAnimation() {
           end: "bottom 80%",
           scrub: 0.5,
           invalidateOnRefresh: true,
-          once: true,
         },
         y: 0,
         opacity: 1,
@@ -36,8 +35,11 @@ export default function GSAPAnimation() {
   }, []);
 
   React.useEffect(() => {
-    const timeout = setTimeout(() => ScrollTrigger.refresh(), 1000);
-    return () => clearTimeout(timeout);
+     const refresh = () => ScrollTrigger.refresh();
+    window.addEventListener("resize", refresh);
+    setTimeout(refresh, 1000);
+
+    return () => window.removeEventListener("resize", refresh);
   }, []);
 
   return null;
