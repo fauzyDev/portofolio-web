@@ -32,7 +32,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/libs/openai/api-call.ts"  ],
   "exclude": [
     "node_modules"
   ]

@@ -6,8 +6,8 @@ import Work from "@/components/Project/ProjectCard";
 import Certificate from "@/components/Certificate/Certificate";
 import Contact from "@/components/Contact/Contact";
 import Footer from "@/components/Footer/Footer";
-import LenisComponent from '@/components/libs/LenisComponent';
-import Animation from '@/components/libs/Animation';
+import LenisComponent from '@/libs/LenisComponent';
+import Animation from '@/libs/Animation';
 
 export default function Home() {   
   return (

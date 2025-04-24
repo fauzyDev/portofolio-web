@@ -61,8 +61,8 @@ const Navbar = ({ navOpen }) => {
       className: 'nav-link md:hidden'
     },
     {
-      label: 'FUZAI',
-      link: '/fuzai',
+      label: 'STAR-X AI',
+      link: '/starx-ai',
       className: 'nav-link'
     }
   ];

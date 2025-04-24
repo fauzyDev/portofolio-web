@@ -1,7 +1,6 @@
 "use client"
 
 import React from "react";
-// import Image from "next/image";
 import { Divide as Hamburger } from 'hamburger-react'
 import Navbar from "@/components/Navbar/Navbar"
 

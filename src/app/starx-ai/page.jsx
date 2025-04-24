@@ -9,7 +9,7 @@ export default function page() {
         Keluar
       </Link>
       <header className="w-full max-w-2xl text-center py-4">
-        <h1 className="text-3xl font-bold text-gray-800 sm:text-4xl dark:text-white">Welcome to FUZ AI</h1>
+        <h1 className="text-3xl font-bold text-gray-800 sm:text-4xl dark:text-white">Welcome to STAR-X AI</h1>
         <p className="mt-2 text-gray-600 dark:text-neutral-400">Your AI-powered copilot for the web</p>
       </header>
 
