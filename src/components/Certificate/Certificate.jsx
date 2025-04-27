@@ -4,23 +4,23 @@ import CertificateCard from './CertificateCard';
 const certificate = [
   {
     name: 'Belajar Jaringan Komputer untuk Pemula',
-    imgSrc: '/images/sertifikat-jaringan.png',
+    imgSrc: '/images/sertifikat-jaringan.webp',
   },
   {
     name: 'Belajar Dasar-Dasar DevOps',
-    imgSrc: '/images/sertifikat-devops.png',
+    imgSrc: '/images/sertifikat-devops.webp',
   },
   {
     name: 'Belajar Dasar Pemrograman JavaScript',
-    imgSrc: '/images/sertifikat-js.png',
+    imgSrc: '/images/sertifikat-js.webp',
   },
   {
     name: 'Belajar Membuat Aplikasi Back-End untuk Pemula',
-    imgSrc: '/images/sertifikat-be.png',
+    imgSrc: '/images/sertifikat-be.webp',
   },
   {
     name: 'Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)',
-    imgSrc: '/images/sertifikat-cld.png',
+    imgSrc: '/images/sertifikat-cld.webp',
   },
 ];
 

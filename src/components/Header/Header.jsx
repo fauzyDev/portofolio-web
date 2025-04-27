@@ -24,7 +24,7 @@ const Header = () => {
                             rotate={0}
                             color="#fff"
                             borderRadius={0}
-                            animationDuration={0.5}
+                            animationDuration={0.3}
                             aria-label="Toggle navigation menu"
                         />
                     </button>

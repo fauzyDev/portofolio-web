@@ -8,7 +8,8 @@ const inter = Inter({
   subsets: ['latin'],
   weight: ['500'],
   style: ['normal'],
-  display: "optional"
+  display: "optional",
+  preload: true
 })
 
 export const metadata = {

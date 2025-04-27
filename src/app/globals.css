@@ -4,6 +4,10 @@
 
 html {
   scroll-behavior: smooth;
+  font-display: optional;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* utilities */
@@ -63,7 +67,6 @@ html {
   background: -webkit-linear-gradient(90deg, #a78bfa, #7c3aed); /* Ungu Pastel ke Ungu Tua */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
 }
 
 .headline-5 {

@@ -3,19 +3,19 @@ import Project from './Project';
 
 const project = [
     {
-      imgSrc: '/images/project2.png',
+      imgSrc: '/images/project2.webp',
       title: 'Spotify Clone',
       tags: ['API', 'MVC', 'Development'],
       projectLink: 'https://github.com/fauzyDev/Spotify-Clone'
     },
     {
-      imgSrc: '/images/project1.png',
+      imgSrc: '/images/project1.webp',
       title: 'Fananime list',
       tags: ['API', 'SPA'],
       projectLink: 'https://github.com/fauzyDev/Fananime-List'
     },
     {
-      imgSrc: '/images/project3.png',
+      imgSrc: '/images/project3.webp',
       title: 'Miko Ai | Chat ai',
       tags: ['Development', 'API'],
       projectLink: 'https://github.com/fauzyDev/MIKOCHAT-AI'

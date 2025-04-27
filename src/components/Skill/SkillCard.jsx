@@ -6,7 +6,7 @@ const SkillCard = ({ imgSrc, label, desc, progress, classes }) => {
   return (
     <li className={`flex items-center gap-3 mb-3 ring-1 ring-inset ring-sky-500 rounded-2xl p-3 hover:bg-zinc-800 transition-colors group ${classes}`}>
       <figure className="bg-zinc-700/50 flex items-center justify-center rounded-lg overflow-hidden w-12 h-12 p-2 group-hover:bg-zinc-900 transition-colors">
-          {imgSrc && imgSrc ? <Image src={imgSrc} loading="lazy" width={32} height={32} alt={label}/> : null}
+          {imgSrc && imgSrc ? <Image src={imgSrc} loading="lazy" width={32} height={32} alt="Skill Image"/> : null}
       </figure>
       <div className="max-w-md w-full">
         <h3>{label}</h3>
