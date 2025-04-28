@@ -9,20 +9,20 @@ import Footer from "@/components/Footer/Footer";
 import LenisComponent from '@/libs/LenisComponent';
 import Animation from '@/libs/Animation';
 
-export default function Home() {   
+export default function Home() {
   return (
     <LenisComponent>
-      <Animation/>
-        <main>
-          <Header/>
-          <Hero/>
-          <About/>
-          <Skill/>
-          <Work/>
-          <Certificate/>
-          <Contact/>
-        </main>
-      <Footer/>
+      <Header />
+      <main>
+        <Hero />
+        <About />
+        <Skill />
+        <Work />
+        <Certificate />
+        <Contact />
+      </main>
+      <Footer />
+      <Animation />
     </LenisComponent>
   );
 }

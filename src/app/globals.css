@@ -4,7 +4,7 @@
 
 html {
   scroll-behavior: smooth;
-  font-display: optional;
+  font-display: swap;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -42,11 +42,12 @@ html {
   background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 .headline-1 {
   @apply text-5xl leading-tight font-semibold lg:text-[55px]
-  lg:leading-[1.15];
+  lg:leading-[1.15] max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10;
 }
 
 .headline-2 {
@@ -61,12 +62,14 @@ html {
   background: -webkit-linear-gradient(90deg, #06b6d4, #9333ea); /* Cyan ke Ungu Tua */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 .headline-4 {
   background: -webkit-linear-gradient(90deg, #a78bfa, #7c3aed); /* Ungu Pastel ke Ungu Tua */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 .headline-5 {

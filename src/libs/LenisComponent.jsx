@@ -1,8 +1,8 @@
 "use client"
 
-import React from 'react'
-import gsap from 'gsap'
-import { ReactLenis } from 'lenis/react'
+import React from 'react';
+import gsap from 'gsap';
+import { ReactLenis } from 'lenis/react';
 
 export default function LenisComponent({ children }) {
   const lenisRef = React.useRef()

@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import bannerImg from "@/assets/images/banner.webp"
 import DownloadSharpIcon from '@mui/icons-material/DownloadSharp';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import { Buttons, ButtonExtend } from '../Button';
@@ -30,7 +31,7 @@ const Hero = () => {
                             Available for work
                         </div>
                     </div>
-                    <h2 className="font-sans headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10 ">
+                    <h2 className="font-sans headline-1">
                         Hello, My Name <span className="headline-3 font-sans">is Fauzy,</span> I&apos;am a Full<span className="headline-4 font-sans">Stack Developer</span>
                     </h2>
                     <div className="flex items-center gap-3 ">
@@ -45,7 +46,7 @@ const Hero = () => {
                 </div>
                 <div className="hidden lg:block">
                     <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
-                        <Image src="/images/banner.webp" priority={true} fetchPriority="high" width={540} height={360} alt="banner" />
+                        <Image src={bannerImg} priority fetchPriority="high" quality={75} alt="banner" />
                     </figure>
                 </div>
             </div>

@@ -1,26 +1,32 @@
 import React from 'react';
 import CertificateCard from './CertificateCard';
 
+import jaringanImg from '@/assets/images/sertifikat-jaringan.webp';
+import devopsImg from '@/assets/images/sertifikat-devops.webp';
+import jsImg from '@/assets/images/sertifikat-js.webp';
+import beImg from '@/assets/images/sertifikat-be.webp';
+import cldImg from '@/assets/images/sertifikat-cld.webp';
+
 const certificate = [
   {
     name: 'Belajar Jaringan Komputer untuk Pemula',
-    imgSrc: '/images/sertifikat-jaringan.webp',
+    imgSrc: jaringanImg,
   },
   {
     name: 'Belajar Dasar-Dasar DevOps',
-    imgSrc: '/images/sertifikat-devops.webp',
+    imgSrc: devopsImg,
   },
   {
     name: 'Belajar Dasar Pemrograman JavaScript',
-    imgSrc: '/images/sertifikat-js.webp',
+    imgSrc: jsImg,
   },
   {
     name: 'Belajar Membuat Aplikasi Back-End untuk Pemula',
-    imgSrc: '/images/sertifikat-be.webp',
+    imgSrc: beImg,
   },
   {
     name: 'Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)',
-    imgSrc: '/images/sertifikat-cld.webp',
+    imgSrc: cldImg,
   },
 ];
 

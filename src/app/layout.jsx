@@ -8,7 +8,7 @@ const inter = Inter({
   subsets: ['latin'],
   weight: ['500'],
   style: ['normal'],
-  display: "optional",
+  display: "swap",
   preload: true
 })
 

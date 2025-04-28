@@ -35,7 +35,7 @@ export default function GSAPAnimation() {
   }, []);
 
   React.useEffect(() => {
-     const refresh = () => ScrollTrigger.refresh();
+    const refresh = () => ScrollTrigger.refresh();
     window.addEventListener("resize", refresh);
     setTimeout(refresh, 1000);
 
