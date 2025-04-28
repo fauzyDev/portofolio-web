@@ -40,4 +40,4 @@ yarn-error.log*
 next-env.d.ts
 
 .codegpt
-/libs/openai/api-call.ts
+src/libs/openai/api-call.ts
