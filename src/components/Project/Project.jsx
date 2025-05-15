@@ -1,12 +1,21 @@
 import React from 'react';
 import Image from 'next/image';
 import LaunchSharpIcon from '@mui/icons-material/LaunchSharp';
-const Project = ({ imgSrc, title, tags, projectLink, classes }) => {
+import JsonViewer from '../json/JsonViewer';
+
+const Project = ({ type, jsonResponse, imgSrc, title, tags, projectLink, classes }) => {
     return (
         <div className={`relative p-4 rounded-2xl bg-zinc-800 hover:bg-zinc-700/50 active:bg-zinc-700/60 ring-1 ring-inset ring-zinc-50/5 transition-colors ${classes}`}>
             <figure className="img-box w-full max-w-lg mx-auto rounded-lg mb-4">
-                <Image src={imgSrc} loading="lazy" quality={75} className="img-cover w-full h-auto object-contain" alt="Project" />
+                {type === 'image' && imgSrc && (
+                    <Image src={imgSrc} loading="lazy" quality={75} className="img-cover w-full h-auto object-contain" alt="Project" />
+                )}
             </figure>
+            {type === 'json' && jsonResponse && (
+                <div className="max-h-[330px] overflow-auto bg-zinc-900 text-sm rounded-md p-4 mb-4">
+                    <JsonViewer json={jsonResponse} />
+                </div>
+            )}
             <div className="flex items-center justify-between gap-4">
                 <div>
                     <h3 className="title-1 mb-3">
@@ -20,13 +29,14 @@ const Project = ({ imgSrc, title, tags, projectLink, classes }) => {
                         ))}
                     </div>
                 </div>
-                <div className="w-11 h-11 rounded-lg grid place-items-center bg-sky-400 text-zinc-950 shrink-0">
-                    <span aria-hidden="true">
-                        {<LaunchSharpIcon />}
-                    </span>
+                <div className="w-11 h-11 rounded-lg grid place-items-center bg-sky-500 hover:bg-sky-400 text-zinc-950 shrink-0">
+                    <a href={projectLink} rel="noopener noreferrer" target="_blank" aria-label="project" className="inset-0">
+                        <span aria-hidden="true">
+                            {<LaunchSharpIcon />}
+                        </span>
+                    </a>
                 </div>
             </div>
-            <a href={projectLink} rel="noopener noreferrer" target="_blank" aria-label="project" className="absolute inset-0"></a>
         </div>
     );
 }

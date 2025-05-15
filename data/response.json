@@ -1,0 +1,62 @@
+{
+    "status": 200,
+        "data": [
+            {
+                "name": "Jalur Nugraha Ekakurir (JNE)",
+                "code": "jne",
+                "service": "REG",
+                "description": "Layanan Reguler",
+                "cost": 24000,
+                "etd": "1 day"
+            },
+            {
+                "name": "Jalur Nugraha Ekakurir (JNE)",
+                "code": "jne",
+                "service": "JTR",
+                "description": "JNE Trucking",
+                "cost": 45000,
+                "etd": "3 day"
+            },
+            {
+                "name": "Jalur Nugraha Ekakurir (JNE)",
+                "code": "jne",
+                "service": "YES",
+                "description": "Yakin Esok Sampai",
+                "cost": 48000,
+                "etd": "1 day"
+            },
+            {
+                "name": "Jalur Nugraha Ekakurir (JNE)",
+                "code": "jne",
+                "service": "SPS",
+                "description": "Super Speed",
+                "cost": 444000,
+                "etd": "1 day"
+            },
+            {
+                "name": "Jalur Nugraha Ekakurir (JNE)",
+                "code": "jne",
+                "service": "JTR<130",
+                "description": "JNE Trucking",
+                "cost": 450000,
+                "etd": "3 day"
+            },
+            {
+                "name": "Jalur Nugraha Ekakurir (JNE)",
+                "code": "jne",
+                "service": "JTR>130",
+                "description": "JNE Trucking",
+                "cost": 750000,
+                "etd": "3 day"
+            },
+            {
+                "name": "Jalur Nugraha Ekakurir (JNE)",
+                "code": "jne",
+                "service": "JTR>200",
+                "description": "JNE Trucking",
+                "cost": 800000,
+                "etd": "3 day"
+            }
+        ],
+    "message": "Succes"
+}
