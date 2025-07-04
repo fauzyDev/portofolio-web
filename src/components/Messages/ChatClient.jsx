@@ -3,7 +3,7 @@
 import React from 'react';
 import Image from 'next/image'
 import Link from 'next/link'
-import Input from "@/components/Input"
+import Input from "@/components/ui/Input"
 
 const ChatClient = () => {
     const [message, setMessage] = React.useState([]);

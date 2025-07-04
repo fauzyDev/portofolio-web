@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { Progress } from "@heroui/progress";
 
 const SkillCard = ({ imgSrc, label, desc, progress, classes }) => {
   return (
@@ -11,18 +10,6 @@ const SkillCard = ({ imgSrc, label, desc, progress, classes }) => {
       <div className="max-w-md w-full">
         <h3>{label}</h3>
         <p className="text-zinc-400 text-sm">{desc}</p>
-        <div className="relative">
-          <Progress
-            color="primary"
-            size="sm"
-            classNames={{ track: "bg-gray-300 rounded-full" }}
-            value={progress}
-            aria-label="progress"
-            showValueLabel={false} />
-          <span className="absolute top-[-20px] right-0 text-sm text-white pr-2">
-            {progress}%
-          </span>
-        </div>
       </div>
     </li>
   );

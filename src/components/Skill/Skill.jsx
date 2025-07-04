@@ -25,7 +25,7 @@ const skillItem = [
     ]
   },
   {
-    title: "Web Server",
+    title: "Runtime",
     items: [
       {
         imgSrc: '/images/nodejs.svg',
@@ -59,7 +59,7 @@ const skillItem = [
     ]
   },
   {
-    title: "Database",
+    title: "ORM/Database",
     items: [
       {
         imgSrc: '/images/prisma.svg',

@@ -3,7 +3,7 @@ import Image from 'next/image';
 import bannerImg from "@/assets/images/banner.webp"
 import DownloadSharpIcon from '@mui/icons-material/DownloadSharp';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
-import { Buttons, ButtonExtend } from '../Button';
+import { Buttons, ButtonExtend } from '../ui/Button';
 
 const link = [
     {
@@ -32,7 +32,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <h2 className="font-sans headline-1">
-                        Hello, My Name <span className="headline-3 font-sans">is Fauzy,</span> I&apos;am a Full<span className="headline-4 font-sans">Stack Developer</span>
+                        Hello, My Name <span className="headline-3 font-sans">is Fauzy,</span> I&apos;am a Full<span className="headline-4 font-sans">Stack Web Developer</span>
                     </h2>
                     <div className="flex items-center gap-3 ">
                         {linkDownload.map(({ linkDownload, download }, key) => (

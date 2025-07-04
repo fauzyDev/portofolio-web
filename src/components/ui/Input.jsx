@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react';
-import { Textarea } from "@heroui/react";
+import { Textarea } from "@heroui/input";
 
 const Input = ({ onSubmit }) => {
     const [input, setInput] = React.useState("")

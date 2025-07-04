@@ -3,7 +3,6 @@
 import tailwindScrollbar from "tailwind-scrollbar"
 import { heroui } from "@heroui/react";
 import tailwindAnimate from "tailwindcss-animate"
-import preline from "preline/plugin"
 
 const tailwindConfig = {
     content: [
@@ -25,7 +24,6 @@ const tailwindConfig = {
   plugins: [
     tailwindScrollbar,
     tailwindAnimate,
-    preline,
     heroui(), 
 	]
 };
