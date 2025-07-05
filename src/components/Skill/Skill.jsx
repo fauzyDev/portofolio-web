@@ -9,7 +9,11 @@ const skillItem = [
         imgSrc: '/images/javascript.svg',
         label: 'JavaScript',
         desc: 'Language Programming',
-        progress: '52'
+      },
+            {
+        imgSrc: '/images/typescript.svg',
+        label: 'TypeScript',
+        desc: 'Language Programming',
       }
     ]
   },
@@ -20,7 +24,6 @@ const skillItem = [
         imgSrc: '/images/tailwindcss.svg',
         label: 'TailwindCSS',
         desc: 'User Interface',
-        progress: '27'
       }
     ]
   },
@@ -31,7 +34,6 @@ const skillItem = [
         imgSrc: '/images/nodejs.svg',
         label: 'NodeJS',
         desc: 'Web Server',
-        progress: '15'
       }
     ]
   },
@@ -42,19 +44,16 @@ const skillItem = [
         imgSrc: '/images/expressjs.svg',
         label: 'ExpressJS',
         desc: 'Node Framework',
-        progress: '20'
       },
       {
         imgSrc: '/images/nextjs.svg',
         label: 'Next JS',
         desc: 'Framework',
-        progress: '40'
       },
       {
         imgSrc: '/images/react.svg',
         label: 'React',
         desc: 'Framework',
-        progress: '40'
       },
     ]
   },
@@ -65,7 +64,6 @@ const skillItem = [
         imgSrc: '/images/prisma.svg',
         label: 'Prisma ORM',
         desc: 'Database',
-        progress: '30'
       }
     ]
   },
@@ -76,7 +74,6 @@ const skillItem = [
         imgSrc: '/images/supabase.svg',
         label: 'Supabase',
         desc: 'Cloud Service',
-        progress: '25'
       }
     ]
   },
@@ -87,7 +84,6 @@ const skillItem = [
         imgSrc: '/images/vercel.svg',
         label: 'Vercel',
         desc: 'Hosting',
-        progress: '25'
       }
     ]
   },
@@ -98,7 +94,6 @@ const skillItem = [
         imgSrc: '/images/npm.svg',
         label: 'Node Package Manager',
         desc: 'Package Manager',
-        progress: '28'
       }
     ]
   },
