@@ -24,16 +24,16 @@ const Hero = () => {
             <div className="container lg:grid lg:grid-cols-2 items-center lg:gap-10">
                 <div>
                     <div className="flex items-center gap-3">
-                        <div className="flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide ">
+                        <h4 className="flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide ">
                             <span className="relative w-2 h-2 rounded-full bg-emerald-400">
                                 <span className="absolute inset-0 w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
                             </span>
                             Available for work
-                        </div>
+                        </h4>
                     </div>
-                    <h2 className="font-sans headline-1">
+                    <h3 className="font-sans headline-1">
                         Hello, My Name <span className="headline-3 font-sans">is Fauzy,</span> I&apos;am a Full<span className="headline-4 font-sans">Stack Web Developer</span>
-                    </h2>
+                    </h3>
                     <div className="flex items-center gap-3 ">
                         {linkDownload.map(({ linkDownload, download }, key) => (
                             <Buttons key={key} href={linkDownload} download={download} label="Download CV" icon={<DownloadSharpIcon />} />

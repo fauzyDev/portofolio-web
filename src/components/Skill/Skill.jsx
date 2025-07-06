@@ -10,9 +10,14 @@ const skillItem = [
         label: 'JavaScript',
         desc: 'Language Programming',
       },
-            {
+      {
         imgSrc: '/images/typescript.svg',
         label: 'TypeScript',
+        desc: 'Language Programming',
+      },
+      {
+        imgSrc: '/images/php.svg',
+        label: 'php',
         desc: 'Language Programming',
       }
     ]
